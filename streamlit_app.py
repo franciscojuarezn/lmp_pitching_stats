@@ -2,7 +2,6 @@ import streamlit as st
 import sqlite3
 import pandas as pd
 import seaborn as sns
-import requests
 import numpy as np
 import matplotlib.pyplot as plt
 import glob
@@ -10,7 +9,6 @@ import os
 
 # Streamlit page config must be the first Streamlit command
 st.set_page_config(page_title="LMP Pitching Stats", layout="wide")
-
 
 # Load data with caching to improve performance
 @st.cache_data
@@ -24,14 +22,12 @@ def load_standard_stats():
     standard_stats_files = glob.glob(os.path.join('stats_data', 'df_standard_stats_*.csv'))
     standard_stats_df_list = [pd.read_csv(file) for file in standard_stats_files]
     return pd.concat(standard_stats_df_list, ignore_index=True)
-    
 
 @st.cache_data
 def load_advanced_stats():
     advanced_stats_files = glob.glob(os.path.join('stats_data', 'df_advanced_stats_*.csv'))
     advanced_stats_df_list = [pd.read_csv(file) for file in advanced_stats_files]
     return pd.concat(advanced_stats_df_list, ignore_index=True)
-    
 
 @st.cache_data
 def load_hit_trajectory():
@@ -65,72 +61,72 @@ players_df = pd.merge(players_df, headshots_df, left_on='id', right_on='playerId
 # Ensure 'player_id' in stats DataFrames is of type integer
 standard_stats_df['player_id'] = standard_stats_df['player_id'].astype(int)
 advanced_stats_df['player_id'] = advanced_stats_df['player_id'].astype(int)
-# # Streamlit app setup
-# st.set_page_config(page_title="LMP Batting Stats", layout="wide")
-logo_and_title = """
-    <div style="display: flex; align-items: center;">
-        <img src="https://www.lmp.mx/assets/img/header/logo_80_aniversary.webp" alt="LMP Logo" width="50" height="50">
-        <h1 style="margin-left: 10px;">LMP Batting Stats</h1>
-    </div>
-"""
 
-# Display the logo and title using st.markdown
-st.markdown(logo_and_title, unsafe_allow_html=True)
-st.divider()
-# # Title
-# st.title("LMP Batting Stats")
-# st.divider()
+# Now get team and player info from `standard_stats_df`
+pitchers_with_teams = standard_stats_df[['player_id', 'team', 'Name']].drop_duplicates()
+
+# Merge the team information with the player dataset
+players_with_teams = pd.merge(players_df, pitchers_with_teams, left_on='id', right_on='player_id', how='inner')
 
 # Filter to exclude players whose position is 'P' (Pitcher)
 pos_to_ignore = ['OF','IF','C', 'SS', '2B', '1B', '3B']
-non_pitchers_df = players_df[~players_df['POS'].isin(pos_to_ignore)]
-pitchers_unique = non_pitchers_df.drop_duplicates(subset=['id'])
+non_pitchers_df = players_with_teams[~players_with_teams['POS'].isin(pos_to_ignore)]
+pitchers_unique = non_pitchers_df.drop_duplicates(subset=['player_id'])
 
 pitchers_unique['fullName'] = pitchers_unique['fullName'].astype(str)
 pitchers_unique = pitchers_unique.sort_values('fullName')
 
-default_player = 'Manny Barreda'
-default_index = next((i for i, name in enumerate(pitchers_unique['fullName']) if name == default_player),0)
+# Set Manny Barreda as the default pitcher
+default_pitcher = 'Manny Barreda'
+default_pitcher_index = next((i for i, name in enumerate(pitchers_unique['fullName']) if name == default_pitcher), 0)
 
-col1, col2 = st.columns([1, 3])  # col1 will be smaller, and col2 will be wider
+# Add "ALL" to the list of teams
+teams_unique = ["ALL"] + pitchers_unique['team'].unique().tolist()
 
-# Place the select box inside the smaller column
-with col1:
-    selected_pitcher = st.selectbox("Select a Pitcher", pitchers_unique['fullName'].tolist(), index=default_index)
+# Layout adjustments for pitcher and team selectboxes
+col1, col2, empty_col1, empty_col2 = st.columns([1, 1, 1, 1])  # Adjust the layout for smaller width
 
-# Get player data for the selected batter
-player_data = non_pitchers_df[non_pitchers_df['fullName'] == selected_pitcher].iloc[0]
-
-# Display player information in three columns
-st.subheader("Player Information")
-col1, col2, col3 = st.columns(3)
-
-with col1:
-    st.write(f"**Full Name:** {player_data['fullName']}")
-    st.write(f"**Position:** {player_data['POS']}")
-    st.write(f"**B/T:** {player_data['B/T']}")
-
+# Select a team with the "ALL" option
 with col2:
-    st.write(f"**Birthdate:** {player_data['birthDate']}")
-    st.write(f"**Birthplace:** {player_data['Birthplace']}")
+    selected_team = st.selectbox("Filter by Team", teams_unique, index=0)
 
-with col3:
-    # Check if headshot_url exists and display the image
-    if pd.notna(player_data['headshot_url']):
-        st.image(player_data['headshot_url'], width=150)
-    else:
-        st.image(os.path.join('stats_data', 'current.jpg'), width=150)
+# Filter the pitchers based on the selected team or show all pitchers if "ALL" is selected
+if selected_team == "ALL":
+    team_pitchers = pitchers_unique
+else:
+    team_pitchers = pitchers_unique[pitchers_unique['team'] == selected_team]
+
+# Update the pitcher selectbox to show only pitchers from the selected team (or all if "ALL" is selected)
+with col1:
+    selected_pitcher = st.selectbox("Select a Pitcher", team_pitchers['fullName'].tolist(), index=default_pitcher_index if selected_team == "ALL" else 0)
+
+# Get player data for the selected pitcher
+if not team_pitchers.empty:
+    player_data = team_pitchers[team_pitchers['fullName'] == selected_pitcher].iloc[0]
+    
+    # Display player information in three columns
+    st.subheader("Player Information")
+    col1, col2, col3 = st.columns(3)
+
+    with col1:
+        st.write(f"**Full Name:** {player_data['fullName']}")
+        st.write(f"**Position:** {player_data['POS']}")
+
+    with col2:
+        st.write(f"**Birthdate:** {player_data['birthDate']}")
+        st.write(f"**Birthplace:** {player_data['Birthplace']}")
+
+    with col3:
+        # Check if headshot_url exists and display the image
+        if pd.notna(player_data['headshot_url']):
+            st.image(player_data['headshot_url'], width=150)
+        else:
+            st.image(os.path.join('stats_data', 'current.jpg'), width=150)
 
 # --- Standard Stats ---
-
-# --- Standard Stats ---
-# Filter stats for the selected player (can have multiple rows if player has stats for multiple seasons/teams)
+# Filter stats for the selected player
 standard_stats = standard_stats_df[standard_stats_df['player_id'] == player_data['id']]
-
-# Convert 'season' to integer for proper sorting
 standard_stats.loc[:, 'season'] = standard_stats['season'].astype(int)
-
-# Select specific columns and order for standard stats
 
 standard_columns = ['season', 'Name', 'team', 'POS', 'G', 'GS', 'IP', 'QS','ERA','WHIP', 'W', 'L', 'SV', 'SVOpp','HLD', 'K', 'BB', 'IBB', 'BF', 'H', 'HR', 'ER', 'HBP', 'GIDP', 'WP']
 standard_stats_filtered = standard_stats[standard_columns].copy()
@@ -155,13 +151,9 @@ st.subheader("Standard Stats", divider='gray')
 st.dataframe(standard_stats_formatted, hide_index=True, use_container_width=True)
 
 # --- Advanced Stats ---
-# Filter stats for the selected player (can have multiple rows if player has stats for multiple seasons/teams)
+# Filter stats for the selected player
 advanced_stats = advanced_stats_df[advanced_stats_df['player_id'] == player_data['id']]
-
-# Convert 'season' to integer for proper sorting
 advanced_stats.loc[:, 'season'] = advanced_stats['season'].astype(int)
-
-# Select specific columns and order for advanced stats
 
 advanced_columns = ['season', 'Name', 'team', 'POS', 'BABIP', 'K%', 'BB%', 'K-BB%', 'K/9', 'BB/9', 'K/BB', 'HR/9','HR/FB%','AVG', 'OBP', 'SLG', 'OPS']
 advanced_stats_filtered = advanced_stats[advanced_columns].copy()
@@ -169,11 +161,7 @@ advanced_stats_filtered = advanced_stats[advanced_columns].copy()
 # Sort by season in descending order and by team
 advanced_stats_filtered = advanced_stats_filtered.sort_values(by=['season', 'team'], ascending=[False, False])
 
-# Apply formatting to highlight rows where 'team' is '2 Teams'
-def highlight_two_teams(row):
-    return ['background-color: #2E2E2E; color:white' if row['team'] == '2 Teams' else '' for _ in row]
-
-# Format numeric columns in advanced stats to the appropriate decimal places
+# Format numeric columns in advanced stats
 advanced_stats_formatted = advanced_stats_filtered.style.format({
     'BABIP': '{:.3f}',
     'K%': '{:.1f}',
@@ -187,20 +175,13 @@ advanced_stats_formatted = advanced_stats_filtered.style.format({
     'BB/9': '{:.2f}', 
     'K/BB': '{:.2f}', 
     'HR/9': '{:.2f}',
-    'HR/PA': '{:.3f}',
-    'BB/K': '{:.3f}',
-    'HR/FB%': '{:.1f}',
-    'SwStr%': '{:.1f}',
-    'Whiff%': '{:.1f}',
-    'FB%': '{:.1f}',
-    'GB%': '{:.1f}',
-    'LD%': '{:.1f}',
-    'PopUp%': '{:.1f}'
+    'HR/FB%': '{:.1f}'
 }).apply(highlight_two_teams, axis=1)
 
 # Display Advanced Stats table
-st.subheader("Advanced Stats & Batted Ball", divider='gray')
+st.subheader("Advanced Stats", divider='gray')
 st.dataframe(advanced_stats_formatted, hide_index=True, use_container_width=True)
+
 
 # Batted Ball Data
 batted_ball_data = advanced_stats_df[advanced_stats_df['player_id'] == player_data['id']]
