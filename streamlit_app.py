@@ -111,6 +111,7 @@ if not team_pitchers.empty:
     with col1:
         st.write(f"**Full Name:** {player_data['fullName']}")
         st.write(f"**Position:** {player_data['POS']}")
+        st.write(f"**B/T:** {player_data['B/T']}")
 
     with col2:
         st.write(f"**Birthdate:** {player_data['birthDate']}")
