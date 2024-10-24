@@ -16,7 +16,7 @@ def load_players_data():
     players_data_files = glob.glob(os.path.join('stats_data', 'players_data_*.csv'))
     players_df_list = [pd.read_csv(file) for file in players_data_files]
     return pd.concat(players_df_list, ignore_index=True)
-    
+
 @st.cache_data
 def load_standard_stats():
     standard_stats_files = glob.glob(os.path.join('stats_data', 'df_standard_stats_*.csv'))
@@ -53,6 +53,7 @@ advanced_stats_df = load_advanced_stats()
 hit_trajectory_df = load_hit_trajectory()
 team_data = load_stadium_data()
 headshots_df = load_headshots()
+pitchers_df = pd.read_csv('pitchers_df.csv')  # Use the provided file for pitchers_df
 
 # Ensure 'playerId' and 'id' are of the same type
 headshots_df['playerId'] = headshots_df['playerId'].astype(int)
@@ -62,14 +63,27 @@ players_df = pd.merge(players_df, headshots_df, left_on='id', right_on='playerId
 standard_stats_df['player_id'] = standard_stats_df['player_id'].astype(int)
 advanced_stats_df['player_id'] = advanced_stats_df['player_id'].astype(int)
 
-# Now get team and player info from `standard_stats_df`
+
+# st.set_page_config(page_title="LMP Batting Stats", layout="wide")
+logo_and_title = """
+    <div style="display: flex; align-items: center;">
+        <img src="https://www.lmp.mx/assets/img/header/logo_80_aniversary.webp" alt="LMP Logo" width="50" height="50">
+        <h1 style="margin-left: 10px;">LMP Pitching Stats</h1>
+    </div>
+"""
+
+# Display the logo and title using st.markdown
+st.markdown(logo_and_title, unsafe_allow_html=True)
+st.divider()
+
+# Get team and player info from `standard_stats_df`
 pitchers_with_teams = standard_stats_df[['player_id', 'team', 'Name']].drop_duplicates()
 
 # Merge the team information with the player dataset
 players_with_teams = pd.merge(players_df, pitchers_with_teams, left_on='id', right_on='player_id', how='inner')
 
-# Filter to exclude players whose position is 'P' (Pitcher)
-pos_to_ignore = ['OF','IF','C', 'SS', '2B', '1B', '3B']
+# Filter to exclude non-pitcher positions
+pos_to_ignore = ['OF', 'IF', 'C', 'SS', '2B', '1B', '3B']
 non_pitchers_df = players_with_teams[~players_with_teams['POS'].isin(pos_to_ignore)]
 pitchers_unique = non_pitchers_df.drop_duplicates(subset=['player_id'])
 
@@ -84,7 +98,7 @@ default_pitcher_index = next((i for i, name in enumerate(pitchers_unique['fullNa
 teams_unique = ["ALL"] + pitchers_unique['team'].unique().tolist()
 
 # Layout adjustments for pitcher and team selectboxes
-col1, col2, empty_col1, empty_col2 = st.columns([1, 1, 1, 1])  # Adjust the layout for smaller width
+col1, col2, empty_col1, empty_col2 = st.columns([1, 1, 1, 1])  # Adjust the layout
 
 # Select a team with the "ALL" option
 with col2:
@@ -100,14 +114,92 @@ else:
 with col1:
     selected_pitcher = st.selectbox("Select a Pitcher", team_pitchers['fullName'].tolist(), index=default_pitcher_index if selected_team == "ALL" else 0)
 
+# --- K-BB% Plotting Function ---
+def plot_pitcher_kbb_styled(pitcher_name, pitcher_data, league_avg_kbb):
+    if pitcher_data.empty:
+        st.write(f"No data available for {pitcher_name}.")
+        return
+    
+    # Check if 'Date' column exists and is formatted correctly
+    if 'Date' in pitcher_data.columns:
+        try:
+            pitcher_data['Date'] = pd.to_datetime(pitcher_data['Date'], errors='coerce')
+            pitcher_data = pitcher_data.dropna(subset=['Date'])  # Remove rows with invalid dates
+            pitcher_data = pitcher_data.sort_values('Date')  # Sort by date for accurate plotting
+        except Exception as e:
+            st.write(f"Error in date formatting: {e}")
+            return
+    
+    plt.figure(figsize=(8.5, 4))
+    
+    # Set the facecolor of the plot to beige
+    plt.gca().set_facecolor('beige')   # Set plot background color
+    plt.gcf().set_facecolor('beige')   # Set figure background color
+    
+    # Plot the pitcher's K-BB% over time (if 'Date' exists) or index otherwise
+    if 'Date' in pitcher_data.columns:
+        plt.plot(
+            pitcher_data['Date'], pitcher_data['K-BB%'], 
+            color='blue',         # Line color
+            linestyle='-',        # Solid line
+            marker='o',           # Circle markers
+            linewidth=2,          # Line width
+            label='_nolegend_'    # Exclude from legend
+        )
+    else:
+        plt.plot(
+            pitcher_data.index, pitcher_data['K-BB%'], 
+            color='blue',         # Line color
+            linestyle='-',        # Solid line
+            marker='o',           # Circle markers
+            linewidth=2,          # Line width
+            label='_nolegend_'    # Exclude from legend
+        )
+    
+    # Add a horizontal line for the league average K-BB% with custom style
+    plt.axhline(
+        y=league_avg_kbb, 
+        color='red',          # Red color
+        linestyle='--',       # Dashed line
+        linewidth=2,          # Line width
+        label=f'League Avg K-BB%: {league_avg_kbb}%'
+    )
+    
+    # Add titles and labels
+    plt.title(f'Rolling K-BB% for {pitcher_name}', fontsize=14)
+    # plt.xlabel('Date' if 'Date' in pitcher_data.columns else 'Index', fontsize=12)
+    # plt.ylabel('K-BB%', fontsize=12)
+    
+    # Remove the grid
+    plt.grid(False)
+    
+    # Format the x-axis to show only the month and day if 'Date' exists
+    if 'Date' in pitcher_data.columns:
+        plt.gca().xaxis.set_major_formatter(plt.matplotlib.dates.DateFormatter('%m-%d'))
+    
+    # Format the y-axis to display 1 decimal place
+    plt.gca().yaxis.set_major_formatter(plt.FuncFormatter(lambda x, _: f'{x:.1f}%'))
+
+    # Rotate x-axis labels for better readability
+    plt.xticks(rotation=45)
+    
+    # Add the legend to display both the pitcher's K-BB% and league average
+    plt.legend(loc='best')
+
+    # Show the plot
+    plt.tight_layout()
+    st.pyplot(plt)
+
+
 # Get player data for the selected pitcher
 if not team_pitchers.empty:
     player_data = team_pitchers[team_pitchers['fullName'] == selected_pitcher].iloc[0]
     
-    # Display player information in three columns
+    # Display player information in three columns and the plot in the fourth
     st.subheader("Player Information")
-    col1, col2, col3 = st.columns(3)
+    col1, col2, col3, col4 = st.columns([.5, .5, .5, .8])  # Adjust column widths
 
+    # Player information in col1 and col2
     with col1:
         st.write(f"**Full Name:** {player_data['fullName']}")
         st.write(f"**Position:** {player_data['POS']}")
@@ -117,14 +209,22 @@ if not team_pitchers.empty:
         st.write(f"**Birthdate:** {player_data['birthDate']}")
         st.write(f"**Birthplace:** {player_data['Birthplace']}")
 
+    # Display headshot in col3
     with col3:
-        # Check if headshot_url exists and display the image
         if pd.notna(player_data['headshot_url']):
             st.image(player_data['headshot_url'], width=150)
         else:
             st.image(os.path.join('stats_data', 'current.jpg'), width=150)
 
-# --- Standard Stats ---
+    # Plot K-BB% in col4
+    with col4:
+        league_avg_kbb = 9.5  # League average K-BB% is 10.5%
+        pitcher_data_filtered = pitchers_df[pitchers_df['FullName'] == selected_pitcher]  # Filter data for the selected pitcher
+        plot_pitcher_kbb_styled(selected_pitcher, pitcher_data_filtered, league_avg_kbb)
+
+
+
+# # --- Standard Stats ---
 # Filter stats for the selected player
 standard_stats = standard_stats_df[standard_stats_df['player_id'] == player_data['id']]
 standard_stats.loc[:, 'season'] = standard_stats['season'].astype(int)
