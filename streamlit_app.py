@@ -252,34 +252,42 @@ st.subheader("Standard Stats", divider='gray')
 st.dataframe(standard_stats_formatted, hide_index=True, use_container_width=True)
 
 # --- Advanced Stats ---
+# Load FIP data from the CSV file
+@st.cache_data
+def load_fip_data():
+    fip_df = pd.read_csv(os.path.join('stats_data', 'FIP_files.csv'))
+    fip_df = fip_df.rename(columns={'x_FIPFB': 'xFIP'})
+    # Select only relevant columns to reduce memory usage
+    return fip_df[['player_id', 'season', 'FIP', 'xFIP']]
+
+# Load the FIP data
+fip_df = load_fip_data()
 # Filter stats for the selected player
 advanced_stats = advanced_stats_df[advanced_stats_df['player_id'] == player_data['id']]
 advanced_stats.loc[:, 'season'] = advanced_stats['season'].astype(int)
 
-advanced_columns = ['season', 'Name', 'team', 'POS', 'BABIP', 'K%', 'BB%', 'K-BB%', 'K/9', 'BB/9', 'K/BB', 'HR/9','HR/FB%','AVG', 'OBP', 'SLG', 'OPS']
-advanced_stats_filtered = advanced_stats[advanced_columns].copy()
+advanced_stats_df = advanced_stats_df.merge(fip_df, on=['player_id', 'season'], how='left')
 
-# Sort by season in descending order and by team
-advanced_stats_filtered = advanced_stats_filtered.sort_values(by=['season', 'team'], ascending=[False, False])
+# Update the Advanced Stats columns to include 'x_FIPFB'
+advanced_columns = [
+    'season', 'Name', 'team', 'POS', 'FIP', 'xFIP', 'BABIP', 'AVG', 'OBP', 'SLG', 'OPS',
+    'K%', 'BB%', 'K-BB%', 'K/9', 'BB/9', 'K/BB', 'HR/9', 'HR/FB%'
+]
 
-# Format numeric columns in advanced stats
+# Filter advanced stats for the selected player and ensure data is sorted by season and team
+advanced_stats = advanced_stats_df[advanced_stats_df['player_id'] == player_data['id']]
+advanced_stats.loc[:, 'season'] = advanced_stats['season'].astype(int)
+advanced_stats_filtered = advanced_stats[advanced_columns].sort_values(by=['season', 'team'], ascending=[False, False])
+
+# Format numeric columns in advanced stats, including 'x_FIPFB'
 advanced_stats_formatted = advanced_stats_filtered.style.format({
-    'BABIP': '{:.3f}',
-    'K%': '{:.1f}',
-    'BB%': '{:.1f}',
-    'K-BB%': '{:.1f}',
-    'AVG': '{:.3f}',
-    'OBP': '{:.3f}',
-    'SLG': '{:.3f}',
-    'OPS': '{:.3f}',
-    'K/9': '{:.2f}', 
-    'BB/9': '{:.2f}', 
-    'K/BB': '{:.2f}', 
-    'HR/9': '{:.2f}',
-    'HR/FB%': '{:.1f}'
+    'BABIP': '{:.3f}', 'K%': '{:.1f}', 'BB%': '{:.1f}', 'K-BB%': '{:.1f}',
+    'AVG': '{:.3f}', 'OBP': '{:.3f}', 'SLG': '{:.3f}', 'OPS': '{:.3f}',
+    'K/9': '{:.2f}', 'BB/9': '{:.2f}', 'K/BB': '{:.2f}', 'HR/9': '{:.2f}',
+    'HR/FB%': '{:.1f}', 'xFIP': '{:.2f}', 'FIP': '{:.2f}'
 }).apply(highlight_two_teams, axis=1)
 
-# Display Advanced Stats table
+# Display the updated Advanced Stats table with 'x_FIPFB' included
 st.subheader("Advanced Stats", divider='gray')
 st.dataframe(advanced_stats_formatted, hide_index=True, use_container_width=True)
 
