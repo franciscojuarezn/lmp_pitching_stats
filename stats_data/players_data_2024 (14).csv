@@ -107,13 +107,13 @@ id,fullName,birthDate,currentAge,height,weight,POS,Birthplace,B/T
 570666,Luis Cessa,25-04-1992,32,"6' 0""",222.0,P,"Cordoba, Mexico",R/R
 802888,Victor Marquez,21-12-2001,22,"6' 0""",190.0,IF,"Poza Rica, Mexico",S/R
 571685,Anthony García,04-01-1992,32,"5' 11""",220.0,OF,"Carolina, Puerto Rico",R/R
-806591,Christopher Gastelum,19-10-2004,20,"5' 10""",161.0,IF,"Huatabampo, Mexico",R/R
 622700,Santiago Chávez,05-08-1995,29,"5' 11""",205.0,C,"Saltillo, Mexico",R/R
+680029,Oziel Flores,12-09-1997,27,"5' 6""",160.0,IF,"Guadalajara, Mexico",S/R
 660620,Jonathan Araúz,03-08-1998,26,"6' 0""",195.0,2B,"Alanje, Panama",S/R
+622661,Dallas Martinez,28-10-1994,30,"6' 0""",175.0,P,"Reynoso, Mexico",R/R
 592889,Ernesto Zaragoza,26-09-1992,32,"6' 1""",175.0,P,"Anaheim, USA",R/R
-546990,Anthony Alford,20-07-1994,30,"6' 0""",215.0,OF,"Columbia, USA",R/R
 642707,Allen Córdoba,06-12-1995,28,"6' 2""",235.0,SS,"Changuinola, Panama",R/R
-807848,Yuhi Sako,07-08-1999,25,,,P,"Kagoshima, Japan",R/R
+607752,Sam Travis,27-08-1993,31,"6' 0""",220.0,1B,"Chicago, USA",R/R
 675880,Daniel De La Fuente,18-07-1997,27,"6' 2""",210.0,P,"Ciudad Juarez, Mexico",R/R
 616623,Edwin Fierro,30-08-1993,31,"6' 1""",200.0,P,"Ciudad Obregon, Mexico",R/R
 605218,Carl Edwards Jr.,03-09-1991,33,"6' 3""",165.0,P,"Newberry, USA",R/R
@@ -121,10 +121,13 @@ id,fullName,birthDate,currentAge,height,weight,POS,Birthplace,B/T
 650980,Samuel Zazueta,21-11-1996,27,"5' 11""",170.0,P,"Ciudad Obregon, Mexico",L/L
 693730,Ruben Salinas,13-01-2003,21,"6' 0""",154.0,OF,"Guerrero Negro, Mexico",R/L
 672438,Roberto Valenzuela,03-03-1995,29,"5' 9""",181.0,2B,"Obregon, Mexico",R/R
-625068,Javier Rodriguez,01-05-1995,29,"6' 2""",165.0,P,"Magdalena de Kino, Mexico",L/L
 628333,Odrisamer Despaigne,04-04-1987,37,"6' 0""",200.0,P,"Havana, Cuba",R/R
 628013,Victor Mendoza,30-11-1990,33,"6' 2""",205.0,1B,"Obregon, Sonora, Mexico",L/L
 468368,Gabriel Gutierrez,24-11-1983,40,"5' 10""",205.0,C,"Guasave, Mexico",R/R
+806591,Christopher Gastelum,19-10-2004,20,"5' 10""",161.0,IF,"Huatabampo, Mexico",R/R
+546990,Anthony Alford,20-07-1994,30,"6' 0""",215.0,OF,"Columbia, USA",R/R
+807848,Yuhi Sako,07-08-1999,25,,,P,"Kagoshima, Japan",R/R
+625068,Javier Rodriguez,01-05-1995,29,"6' 2""",165.0,P,"Magdalena de Kino, Mexico",L/L
 701033,Jorge Rivera,09-11-2000,23,"5' 6""",147.0,IF,"Los Mochis, Mexico",R/R
 669214,Conner Menez,29-05-1995,29,"6' 2""",206.0,P,"Hollister, USA",L/L
 807581,Randy Delgado,28-04-2002,22,"6' 0""",198.0,OF,,L/L
@@ -344,10 +347,10 @@ id,fullName,birthDate,currentAge,height,weight,POS,Birthplace,B/T
 800079,Cristian Alvarado,06-07-2003,21,"6' 0""",185.0,P,"Esperanza, Mexico",R/R
 829261,Jose Angel Cecena,27-01-2005,19,"5' 8""",163.0,IF,"Los Mochis, Mexico",R/L
 828390,Carlos Baez,08-10-2005,19,"5' 7""",188.0,2B,"Ciudad Obregon, Mexico",S/R
+672359,Tirso Ornelas,11-03-2000,24,"6' 3""",200.0,OF,"Tijuana, Mexico",L/R
+686317,Edgar Manzo,24-10-2000,24,"5' 11""",181.0,P,"Guadalajara, Mexico",R/R
 680048,Aldo Ramirez,06-05-2001,23,"6' 0""",191.0,P,"Aguascalientes, Mexico",R/R
 593372,Carlos Martinez,21-09-1991,33,"6' 0""",200.0,P,"Puerto Plata, Dominican Republic",R/R
-680029,Oziel Flores,12-09-1997,27,"5' 6""",160.0,IF,"Guadalajara, Mexico",S/R
-686317,Edgar Manzo,24-10-2000,24,"5' 11""",181.0,P,"Guadalajara, Mexico",R/R
 672666,Adolfo Ramirez,01-06-1999,25,"6' 0""",165.0,P,"Heroica Mulege, Mexico",R/R
 624221,Carlos Figueroa,10-04-1992,32,"5' 8""",220.0,OF,"Hermosillo, Mexico",S/R
 701980,Nestor Rios,04-01-2005,19,"6' 0""",175.0,C,"Aguascalientes, Mexico",R/R
@@ -358,11 +361,12 @@ id,fullName,birthDate,currentAge,height,weight,POS,Birthplace,B/T
 593495,Daniel Castro,14-11-1992,31,"5' 11""",201.0,SS,"Guaymas, Mexico",R/R
 692643,Ernesto Borges,17-05-2001,23,"6' 2""",188.0,P,"Campeche, Mexico",R/R
 593471,Isaias Tejeda,28-10-1991,33,"6' 0""",195.0,C,"Santo Domingo, Dominican Republic",R/R
-607752,Sam Travis,27-08-1993,31,"6' 0""",220.0,1B,"Chicago, USA",R/R
 670986,Jose Bravo,10-06-1997,27,"6' 3""",213.0,P,"Tijuana, Mexico",R/R
 660610,Carlos De Leon,28-06-1997,27,"6' 1""",180.0,C,"Cadereyeta Jimenez, Mexico",R/R
 692401,Juan Salas,14-02-2003,21,"6' 0""",189.0,P,"Monterrey, Mexico",R/R
 679893,Manuel Urias,08-03-2001,23,"6' 6""",243.0,P,"Ahome, Mexico",R/R
 807586,Omar Araujo,07-02-1999,25,"6' 1""",220.0,P,"El Naranjo, Mexico",R/R
+657674,Kyle Martin,13-11-1992,31,"6' 2""",240.0,1B,"Greenville, USA",L/L
+661541,Donovan Casey,23-02-1996,28,"6' 2""",223.0,OF,"Stratford, USA",R/R
 691678,Vidal Sotelo,11-08-2002,22,"5' 9""",211.0,P,"Guasave, Mexico",L/L
 683114,Fernando Burgueno,29-08-1998,26,"5' 10""",183.0,P,"Mazatlan, Mexico",R/R
