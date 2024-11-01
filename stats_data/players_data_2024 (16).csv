@@ -41,7 +41,7 @@ id,fullName,birthDate,currentAge,height,weight,POS,Birthplace,B/T
 592889,Ernesto Zaragoza,26-09-1992,32,"6' 1""",175.0,P,"Anaheim, USA",R/R
 802559,Victor Morales,10-10-2001,23,"5' 10""",165.0,P,"Mexico City, Mexico",R/R
 642707,Allen Córdoba,06-12-1995,28,"6' 2""",235.0,SS,"Changuinola, Panama",R/R
-503429,Walter Ibarra,01-11-1987,36,"5' 11""",180.0,SS,"Los Mochis, Mexico",S/R
+503429,Walter Ibarra,01-11-1987,37,"5' 11""",180.0,SS,"Los Mochis, Mexico",S/R
 675880,Daniel De La Fuente,18-07-1997,27,"6' 2""",210.0,P,"Ciudad Juarez, Mexico",R/R
 675202,Juan Kirk,15-06-1996,28,"5' 10""",196.0,C,"Tijuana, Mexico",R/R
 616623,Edwin Fierro,30-08-1993,31,"6' 1""",200.0,P,"Ciudad Obregon, Mexico",R/R
@@ -189,7 +189,10 @@ id,fullName,birthDate,currentAge,height,weight,POS,Birthplace,B/T
 699063,Pedro Santillan,07-07-2001,23,"6' 4""",200.0,P,"Chihuahua, Mexico",R/R
 592144,Wynton Bernard,24-09-1990,34,"6' 0""",195.0,OF,"San Diego, USA",R/R
 650995,Norberto Obeso,09-07-1995,29,"6' 0""",175.0,OF,"Hermosillo, Mexico",L/R
+691376,Irving Medina,12-06-2003,21,"6' 1""",175.0,P,"Victoria de Durango, Mexico",R/R
 683114,Fernando Burgueno,29-08-1998,26,"5' 10""",183.0,P,"Mazatlan, Mexico",R/R
+501317,Francisco Peguero,01-06-1988,36,"6' 0""",190.0,OF,"Nigua, Dominican Republic",R/R
+670986,Jose Bravo,10-06-1997,27,"6' 3""",213.0,P,"Tijuana, Mexico",R/R
 458501,Luis Alfonso Cruz,10-02-1984,40,"6' 1""",210.0,3B,"Navojoa, Mexico",R/R
 571328,Jovany Lopez,11-04-1991,33,"5' 10""",175.0,P,"Los Mochis, Mexico",L/L
 477462,Esteban Haro,11-11-1985,38,"6' 0""",165.0,P,"Los Mochis, Mexico",R/R
@@ -337,7 +340,8 @@ id,fullName,birthDate,currentAge,height,weight,POS,Birthplace,B/T
 678712,Mario Garcia,27-12-1998,25,"6' 1""",183.0,P,"Los Mochis, Mexico",R/R
 802580,Roberto Castro,10-08-2000,24,"6' 0""",180.0,OF,"Monclova, Mexico",L/R
 532893,Ivan Salas,30-12-1990,33,"5' 11""",155.0,P,"Navojoa, Mexico",L/L
-670986,Jose Bravo,10-06-1997,27,"6' 3""",213.0,P,"Tijuana, Mexico",R/R
+802392,Carlos Medina,08-11-2004,19,"5' 7""",176.0,,"Culiacan, Mexico",L/R
+666015,Francisco Villegas,31-08-1997,27,"6' 2""",175.0,P,"Cuauhtemoc, Mexico",L/L
 660610,Carlos De Leon,28-06-1997,27,"6' 1""",180.0,C,"Cadereyeta Jimenez, Mexico",R/R
 692401,Juan Salas,14-02-2003,21,"6' 0""",189.0,P,"Monterrey, Mexico",R/R
 692271,Jose Luis Reyes,20-08-2002,22,"6' 3""",190.0,P,"Mexicali, Mexico",R/R
@@ -351,6 +355,7 @@ id,fullName,birthDate,currentAge,height,weight,POS,Birthplace,B/T
 643518,Jose Samayoa,09-03-1990,34,"6' 1""",200.0,P,"Hermosillo, Mexico",R/R
 666016,Jose Albertos,07-11-1998,25,"6' 1""",185.0,P,"Reynoso, Mexico",R/R
 680023,Daniel Mercado,09-03-1996,28,"6' 0""",190.0,C,"Nogales, Mexico",R/R
+641852,Thomas McIlraith,17-02-1994,30,"6' 4""",220.0,P,"Amarillo, USA",R/R
 692940,Erick Preciado,25-06-1996,28,"6' 0""",180.0,P,,R/R
 829274,Damian Mora,14-01-2003,21,"5' 10""",171.0,IF,"Los Mochis, Mexico",R/R
 663793,Dakota Chalmers,08-10-1996,28,"6' 3""",175.0,P,"Snellville, USA",R/R
@@ -365,8 +370,9 @@ id,fullName,birthDate,currentAge,height,weight,POS,Birthplace,B/T
 814812,Edgar Lugo,19-08-2004,20,"5' 9""",170.0,SS,"Ciudad Constitucion, Mexico",S/R
 682608,Peyton Gray,02-06-1995,29,"6' 4""",235.0,P,"Columbus, USA",R/R
 669315,Orlando Pina,09-04-1998,26,"5' 11""",218.0,C,"Ciudad Obregon, Mexico",R/R
-691678,Vidal Sotelo,11-08-2002,22,"5' 9""",211.0,P,"Guasave, Mexico",L/L
+691839,Joe Jones,22-07-1995,29,"6' 5""",245.0,P,"Cookeville, USA",R/R
 672359,Tirso Ornelas,11-03-2000,24,"6' 3""",200.0,OF,"Tijuana, Mexico",L/R
+691678,Vidal Sotelo,11-08-2002,22,"5' 9""",211.0,P,"Guasave, Mexico",L/L
 664039,Geno Encina,07-07-1994,30,"6' 4""",220.0,P,"San Antonio, USA",L/R
 600526,José Torres,24-09-1993,31,"6' 2""",175.0,P,"Caracas, Venezuela",L/L
 692261,Jose Villa,05-02-2003,21,"5' 8""",176.0,IF,"Mexicali, Mexico",R/R
