@@ -218,7 +218,7 @@ if not team_pitchers.empty:
 
     # Plot K-BB% in col4
     with col4:
-        league_avg_kbb = 9.7  # League average K-BB% is 10.5%
+        league_avg_kbb = 8.9  # League average K-BB% is 10.5%
         pitcher_data_filtered = pitchers_df[pitchers_df['FullName'] == selected_pitcher]  # Filter data for the selected pitcher
         plot_pitcher_kbb_styled(selected_pitcher, pitcher_data_filtered, league_avg_kbb)
 
