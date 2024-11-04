@@ -103,7 +103,7 @@ id,fullName,birthDate,currentAge,height,weight,POS,Birthplace,B/T
 807587,Angel Ramirez,28-03-2005,19,"6' 2""",190.0,OF,"Chihuahua, Mexico",R/R
 672478,Jordan Diaz,13-08-2000,24,"5' 9""",175.0,2B,"Monteria, Colombia",R/R
 643494,A.J. Puckett,27-05-1995,29,"6' 4""",200.0,P,"Walnut Creek, USA",R/R
-641432,Willie Calhoun,04-11-1994,29,"5' 8""",205.0,1B,"Vallejo, USA",L/R
+641432,Willie Calhoun,04-11-1994,30,"5' 8""",205.0,1B,"Vallejo, USA",L/R
 660604,Alan Rangel,21-08-1997,27,"6' 2""",170.0,P,"Hermosillo, Mexico",R/R
 803376,Angel Camacho,12-10-2000,24,"6' 2""",176.0,IF,"Hermosillo, Mexico",R/R
 806591,Christopher Gastelum,19-10-2004,20,"5' 10""",161.0,IF,"Huatabampo, Mexico",R/R
@@ -292,6 +292,13 @@ id,fullName,birthDate,currentAge,height,weight,POS,Birthplace,B/T
 654118,Eric Meza,05-03-1998,26,"6' 1""",245.0,1B,"Tlaquepaque, Mexico",L/L
 691388,Jonas Garibay,07-06-2000,24,"6' 4""",202.0,P,"San Agustin, Mexico",R/R
 703060,Alejandro Urias,15-06-2002,22,"6' 0""",183.0,C,"Los Mochis, Mexico",R/R
+510612,Francisco Cordoba,01-06-1984,40,"5' 11""",190.0,C,"Tlalixcoyan, Mexico",R/R
+828443,Diego Castro,03-01-2006,18,"6' 2""",194.0,P,,R/R
+675970,Alex Robles,07-07-1995,29,"6' 0""",200.0,OF,"Tucson, USA",R/R
+643518,Jose Samayoa,09-03-1990,34,"6' 1""",200.0,P,"Hermosillo, Mexico",R/R
+641852,Thomas McIlraith,17-02-1994,30,"6' 4""",220.0,P,"Amarillo, USA",R/R
+666016,Jose Albertos,07-11-1998,25,"6' 1""",185.0,P,"Reynoso, Mexico",R/R
+680023,Daniel Mercado,09-03-1996,28,"6' 0""",190.0,C,"Nogales, Mexico",R/R
 642574,Ronald Medrano,17-09-1995,29,"6' 0""",170.0,P,"Managua, Nicaragua",R/R
 680771,Mateo Gil,24-07-2000,24,"6' 0""",180.0,3B,"Newport Beach, USA",R/R
 527054,Julio Teheran,27-01-1991,33,"6' 2""",205.0,P,"Cartagena, Colombia",R/R
@@ -300,13 +307,7 @@ id,fullName,birthDate,currentAge,height,weight,POS,Birthplace,B/T
 806157,Christian Morales,27-07-2001,23,"6' 0""",187.0,OF,"Saltillo, Mexico",R/R
 674478,Luis Payan,29-08-1995,29,"5' 9""",176.0,P,"Guasave, Mexico",R/R
 802581,Alejandro Morales,01-12-2001,22,"5' 9""",160.0,P,"Cordoba, Mexico",R/R
-510612,Francisco Cordoba,01-06-1984,40,"5' 11""",190.0,C,"Tlalixcoyan, Mexico",R/R
-643518,Jose Samayoa,09-03-1990,34,"6' 1""",200.0,P,"Hermosillo, Mexico",R/R
-641852,Thomas McIlraith,17-02-1994,30,"6' 4""",220.0,P,"Amarillo, USA",R/R
-680023,Daniel Mercado,09-03-1996,28,"6' 0""",190.0,C,"Nogales, Mexico",R/R
 703725,Luis Gastelum,27-09-2001,23,"6' 2""",168.0,P,"Los Mochis, Mexico",R/R
-828443,Diego Castro,03-01-2006,18,"6' 2""",194.0,P,,R/R
-666016,Jose Albertos,07-11-1998,25,"6' 1""",185.0,P,"Reynoso, Mexico",R/R
 701033,Jorge Rivera,09-11-2000,23,"5' 6""",147.0,IF,"Los Mochis, Mexico",R/R
 807581,Randy Delgado,28-04-2002,22,"6' 0""",198.0,OF,,L/L
 703655,Dan Kubiuk,30-09-1995,29,"6' 1""",220.0,P,"Barrington, USA",R/R
@@ -360,6 +361,7 @@ id,fullName,birthDate,currentAge,height,weight,POS,Birthplace,B/T
 594027,Tayron Guerrero,09-01-1991,33,"6' 8""",225.0,P,"Bocachica, Colombia",R/R
 692940,Erick Preciado,25-06-1996,28,"6' 0""",180.0,P,,R/R
 829274,Damian Mora,14-01-2003,21,"5' 10""",171.0,IF,"Los Mochis, Mexico",R/R
+814812,Edgar Lugo,19-08-2004,20,"5' 9""",170.0,SS,"Ciudad Constitucion, Mexico",S/R
 663820,Alex Valverde,26-09-1996,28,"6' 2""",185.0,P,"Miami, USA",R/R
 676203,Marcos Castañon,23-03-1999,25,"5' 10""",195.0,2B,"San Bernardino, USA",R/R
 663793,Dakota Chalmers,08-10-1996,28,"6' 3""",175.0,P,"Snellville, USA",R/R
@@ -371,7 +373,6 @@ id,fullName,birthDate,currentAge,height,weight,POS,Birthplace,B/T
 700062,Andre Sanchez,05-02-2003,21,"5' 10""",140.0,P,"Cordoba, Mexico",R/R
 674496,Daniel Cornejo,15-10-1990,34,"6' 2""",203.0,OF,"Guasave, Mexico",R/R
 814188,Jayson Bass,29-04-2006,18,"5' 11""",165.0,OF,"Los Mochis, Mexico",S/R
-814812,Edgar Lugo,19-08-2004,20,"5' 9""",170.0,SS,"Ciudad Constitucion, Mexico",S/R
 682608,Peyton Gray,02-06-1995,29,"6' 4""",235.0,P,"Columbus, USA",R/R
 669315,Orlando Pina,09-04-1998,26,"5' 11""",218.0,C,"Ciudad Obregon, Mexico",R/R
 691839,Joe Jones,22-07-1995,29,"6' 5""",245.0,P,"Cookeville, USA",R/R
@@ -383,4 +384,5 @@ id,fullName,birthDate,currentAge,height,weight,POS,Birthplace,B/T
 803197,Marco Fregozo,22-05-2001,23,"6' 2""",211.0,P,"Rosamorada, Mexico",R/R
 676520,Manuel Alvarez,17-09-1995,29,"6' 3""",225.0,P,"Santo Domingo, Dominican Republic",R/R
 660563,Joseph Rosa,06-03-1997,27,"5' 10""",165.0,2B,"New York, USA",S/R
+643271,Narciso Crook,12-07-1995,29,"6' 2""",229.0,OF,"Nagua, Dominican Republic",R/R
 692261,Jose Villa,05-02-2003,21,"5' 8""",176.0,IF,"Mexicali, Mexico",R/R
