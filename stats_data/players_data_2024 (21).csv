@@ -126,6 +126,7 @@ id,fullName,birthDate,currentAge,height,weight,POS,Birthplace,B/T
 678540,Brayan Quintero,19-02-1999,25,"5' 9""",176.0,2B,"Mazatlan, Mexico",R/R
 700071,Alexandro Tovalin,25-11-1997,26,"6' 0""",187.0,P,"San Diego, USA",R/R
 599096,Dilson Herrera,03-03-1994,30,"5' 10""",210.0,2B,"Cartagena, Colombia",R/R
+680396,Joe Stewart,06-05-1998,26,"6' 5""",212.0,OF,"Kalamazoo, USA",R/R
 685736,Cristian Mejia,20-07-1999,25,"6' 1""",192.0,C,"Gusave, Mexico",R/R
 701432,Orlando Gonzalez,22-11-2002,21,"6' 1""",220.0,P,"Tepatitlan, Mexico",R/R
 681659,Jorge Rodriguez,25-08-2000,24,"5' 11""",171.0,P,"Ciudad Juarez, Mexico",L/L
@@ -263,6 +264,8 @@ id,fullName,birthDate,currentAge,height,weight,POS,Birthplace,B/T
 676520,Manuel Alvarez,17-09-1995,29,"6' 3""",225.0,P,"Santo Domingo, Dominican Republic",R/R
 691388,Jonas Garibay,07-06-2000,24,"6' 4""",202.0,P,"San Agustin, Mexico",R/R
 703060,Alejandro Urias,15-06-2002,22,"6' 0""",183.0,C,"Los Mochis, Mexico",R/R
+685692,Vicente Valenzuela,01-06-2001,23,"5' 9""",143.0,P,"Los Mochis, Mexico",R/R
+640447,Phillip Ervin,15-07-1992,32,"5' 10""",207.0,OF,"Mobile, USA",R/R
 571328,Jovany Lopez,11-04-1991,33,"5' 10""",175.0,P,"Los Mochis, Mexico",L/L
 678499,Randy Romero,10-08-1999,25,"5' 11""",155.0,OF,"Mexicali, Mexico",R/R
 678966,Mike Hart,28-05-1994,30,"6' 0""",198.0,C,"Lowell, USA",L/R
@@ -311,7 +314,7 @@ id,fullName,birthDate,currentAge,height,weight,POS,Birthplace,B/T
 675970,Alex Robles,07-07-1995,29,"6' 0""",200.0,OF,"Tucson, USA",R/R
 643518,Jose Samayoa,09-03-1990,34,"6' 1""",200.0,P,"Hermosillo, Mexico",R/R
 641852,Thomas McIlraith,17-02-1994,30,"6' 4""",220.0,P,"Amarillo, USA",R/R
-666016,Jose Albertos,07-11-1998,25,"6' 1""",185.0,P,"Reynoso, Mexico",R/R
+666016,Jose Albertos,07-11-1998,26,"6' 1""",185.0,P,"Reynoso, Mexico",R/R
 680023,Daniel Mercado,09-03-1996,28,"6' 0""",190.0,C,"Nogales, Mexico",R/R
 642574,Ronald Medrano,17-09-1995,29,"6' 0""",170.0,P,"Managua, Nicaragua",R/R
 680771,Mateo Gil,24-07-2000,24,"6' 0""",180.0,3B,"Newport Beach, USA",R/R
@@ -354,7 +357,6 @@ id,fullName,birthDate,currentAge,height,weight,POS,Birthplace,B/T
 703865,Christian Crespo,30-01-2003,21,"6' 2""",190.0,P,"La Paz, MEX",R/R
 572943,Jeff Ibarra,18-08-1987,37,"6' 6""",180.0,P,"Escondido, USA",L/L
 642856,Fabian Anguamea,21-12-1993,30,"6' 2""",198.0,P,"Ciudad Obregon, Mexico",R/R
-685692,Vicente Valenzuela,01-06-2001,23,"5' 9""",143.0,P,"Los Mochis, Mexico",R/R
 661541,Donovan Casey,23-02-1996,28,"6' 2""",223.0,OF,"Stratford, USA",R/R
 679893,Manuel Urias,08-03-2001,23,"6' 6""",243.0,P,"Ahome, Mexico",R/R
 805678,Joe Riley,30-09-1995,29,"6' 1""",205.0,P,"Alameda, USA",R/R
@@ -368,17 +370,17 @@ id,fullName,birthDate,currentAge,height,weight,POS,Birthplace,B/T
 495664,Ricardo Serrano,03-04-1986,38,"5' 9""",165.0,2B,"Gomez Palacio, Mexico",S/R
 689567,Hernan Yanez,04-01-1999,25,"6' 0""",200.0,C,"Mexicali, Mexico",S/R
 807586,Omar Araujo,07-02-1999,25,"6' 1""",220.0,P,"El Naranjo, Mexico",R/R
-594027,Tayron Guerrero,09-01-1991,33,"6' 8""",225.0,P,"Bocachica, Colombia",R/R
 663793,Dakota Chalmers,08-10-1996,28,"6' 3""",175.0,P,"Snellville, USA",R/R
 604996,Carlos Garzon,14-05-1992,32,"6' 0""",205.0,C,"Oaxaca, Mexico",R/R
 682608,Peyton Gray,02-06-1995,29,"6' 4""",235.0,P,"Columbus, USA",R/R
 669315,Orlando Pina,09-04-1998,26,"5' 11""",218.0,C,"Ciudad Obregon, Mexico",R/R
 800099,Edwin Cervantes,06-09-2004,20,"6' 3""",159.0,P,"Guasave, Mexico",L/L
 699136,Heber Villalobos,24-09-2003,21,"5' 11""",180.0,C,"San Quentin, Mexico",R/R
-691678,Vidal Sotelo,11-08-2002,22,"5' 9""",211.0,P,"Guasave, Mexico",L/L
 667050,Grant Gavin,10-07-1995,29,"6' 2""",185.0,P,"Parkville, USA",R/R
 806873,Yael Romero,15-10-2005,19,"5' 11""",175.0,1B,,L/R
 643271,Narciso Crook,12-07-1995,29,"6' 2""",229.0,OF,"Nagua, Dominican Republic",R/R
+594027,Tayron Guerrero,09-01-1991,33,"6' 8""",225.0,P,"Bocachica, Colombia",R/R
+691678,Vidal Sotelo,11-08-2002,22,"5' 9""",211.0,P,"Guasave, Mexico",L/L
 692940,Erick Preciado,25-06-1996,28,"6' 0""",180.0,P,,R/R
 829274,Damian Mora,14-01-2003,21,"5' 10""",171.0,IF,"Los Mochis, Mexico",R/R
 814812,Edgar Lugo,19-08-2004,20,"5' 9""",170.0,SS,"Ciudad Constitucion, Mexico",S/R

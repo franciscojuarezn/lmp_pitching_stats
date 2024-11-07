@@ -74,7 +74,7 @@ def load_team_era_whip():
 team_era_whip_df = load_team_era_whip()
 
 # Toggle for selecting Teams or League view
-view_selection = st.radio("Select View:", ["Players", "Teams"], index=0, horizontal=True)
+view_selection = st.radio("Select View:", ["Players", "Teams", "Leaderboard"], index=0, horizontal=True)
 # st.divider()
 
 if view_selection == 'Players':
@@ -242,7 +242,7 @@ if view_selection == 'Players':
 
         # Plot K-BB% in col4
         with col4:
-            league_avg_kbb = 9.2  # League average K-BB% is 10.5%
+            league_avg_kbb = 9.1  # League average K-BB% is 10.5%
             pitcher_data_filtered = pitchers_df[pitchers_df['FullName'] == selected_pitcher]  # Filter data for the selected pitcher
             plot_pitcher_kbb_styled(selected_pitcher, pitcher_data_filtered, league_avg_kbb)
 
@@ -435,7 +435,7 @@ if view_selection == 'Players':
         else:
             st.write("No data available for vs RHP.")
 
-else:
+elif view_selection == "Teams":
     st.markdown("<h1 style='text-align: center;'>League & Teams</h1>", unsafe_allow_html=True)
     # st.divider()
 
@@ -464,8 +464,8 @@ else:
 
     st.subheader("League Averages", divider='gray')
 
-    league_avg_df.insert(2, 'FIP', 3.58)
-    league_avg_df.insert(3, 'xFIP', 3.91)
+    league_avg_df.insert(2, 'FIP', 3.55)
+    league_avg_df.insert(3, 'xFIP', 3.90)
     league_columns = ['ERA', 'WHIP', 'FIP', 'xFIP','K%', 'BB%', 'K-BB%', 'SwStr%', 'Whiff%', 'Str%', 'CSW%', 'CStr%', 'F-Strike%', 'LD%', 'GB%', 'FB%', 'PopUp%', 'HR/FB%', 'BABIP', 'AVG', 'OBP', 'SLG', 'OPS',
                       'K/9', 'BB/9', 'H/9', 'R/9', 'HR/9', 'K/BB']
     league_avg_formatted = league_avg_df[league_columns].style.format({
@@ -567,3 +567,81 @@ else:
     fig.update_layout(width=1000, height=500)
     fig.update_traces(marker=dict(line=dict(color='white', width=0.75)))
     st.plotly_chart(fig)
+
+elif view_selection == "Leaderboard":
+    @st.cache_data
+    def load_standard_stats():
+        standard_stats_files = glob.glob(os.path.join('stats_data', 'df_standard_stats_*.csv'))
+        standard_stats_df_list  = [pd.read_csv(file) for file in standard_stats_files]
+        return pd.concat(standard_stats_df_list, ignore_index=True)
+    
+    @st.cache_data
+    def load_advanced_stats():
+        advanced_stats_files = glob.glob(os.path.join('stats_data', 'df_advanced_stats_*.csv'))
+        advanced_stats_df_list = [pd.read_csv(file) for file in advanced_stats_files]
+        return pd.concat(advanced_stats_df_list, ignore_index=True)
+    
+    @st.cache_data
+    def load_fip_data():
+        fip_df = pd.read_csv(os.path.join('stats_data', 'FIP_files.csv'))
+        fip_df = fip_df.rename(columns={'x_FIPFB': 'xFIP'})
+        # Select only relevant columns to reduce memory usage
+        return fip_df[['player_id', 'season', 'FIP', 'xFIP']]
+    
+    @st.cache_data
+
+    def load_data():
+        team_data_std_df = pd.read_csv('team_data_std_p.csv')
+        return team_data_std_df
+
+    standard_stats_df = load_standard_stats()
+    advanced_stats_df = load_advanced_stats()
+    fip_df = load_fip_data()
+    team_data_df = load_data()
+
+    advanced_stats_df = advanced_stats_df.merge(fip_df, on=['player_id', 'season'], how='left')
+
+    merged_df = pd.merge(standard_stats_df, advanced_stats_df, on=['player_id', 'season'], how='outer', suffixes=('', '_adv'))
+
+    merged_df['season'] = merged_df['season'].astype(int)
+
+    display_columns = ['Name', 'team', 'W', 'L',  'ERA', 'WHIP', 'G', 'GS', 'IP', 'QS', 'SV', 'SVOpp', 'BS', 'HLD', 'BF', 'R', 'ER', 'K', 'HR', 'BB', 'HBP', 'BK', 'WP']
+
+    st.title("LMP Pitching Leaderboard")
+    st.divider()
+
+    col1, col2, col3, col4, col5 = st.columns([1,1,1.5,1,1])
+
+    with col1:
+        available_years = merged_df['season'].unique()
+        selected_year = st.selectbox("Year", sorted(available_years, reverse=True))
+    
+    with col3:
+        filtered_df = merged_df[merged_df['season'] == selected_year]
+        max_ip = filtered_df['IP'].max()
+        min_ip = st.slider("Min IP", min_value=0, max_value=int(max_ip), value=0)
+
+    max_games = team_data_df['GS'].max()
+    ip_threshold = int(max_games * .8)
+
+    with col5:
+        player_filter = st.radio("Player Filter", ['All Pitchers', "Qualified Pitchers"], horizontal=True)
+
+    if player_filter == "Qualified Pitchers":
+        filtered_df = filtered_df[filtered_df['IP'] >= ip_threshold]
+
+    filtered_df = filtered_df[filtered_df['IP'] >= min_ip]
+    filtered_df = filtered_df[display_columns]
+
+
+    filtered_df = filtered_df.sort_values(by='ERA', ascending=True)
+
+    format_dict = {
+        'ERA': '{:.2f}',
+        'WHIP': '{:.2f}',
+        'IP': '{:.1f}',
+    }
+
+    filtered_df = filtered_df.style.format(format_dict)
+
+    st.dataframe(filtered_df, height=600, use_container_width=True, hide_index=True)
