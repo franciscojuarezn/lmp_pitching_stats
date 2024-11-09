@@ -242,7 +242,7 @@ if view_selection == 'Players':
 
         # Plot K-BB% in col4
         with col4:
-            league_avg_kbb = 9.1  # League average K-BB% is 10.5%
+            league_avg_kbb = 9.3  # League average K-BB% is 10.5%
             pitcher_data_filtered = pitchers_df[pitchers_df['FullName'] == selected_pitcher]  # Filter data for the selected pitcher
             plot_pitcher_kbb_styled(selected_pitcher, pitcher_data_filtered, league_avg_kbb)
 
@@ -465,7 +465,7 @@ elif view_selection == "Teams":
     st.subheader("League Averages", divider='gray')
 
     league_avg_df.insert(2, 'FIP', 3.51)
-    league_avg_df.insert(3, 'xFIP', 3.88)
+    league_avg_df.insert(3, 'xFIP', 3.84)
     league_columns = ['ERA', 'WHIP', 'FIP', 'xFIP','K%', 'BB%', 'K-BB%', 'SwStr%', 'Whiff%', 'Str%', 'CSW%', 'CStr%', 'F-Strike%', 'LD%', 'GB%', 'FB%', 'PopUp%', 'HR/FB%', 'BABIP', 'AVG', 'OBP', 'SLG', 'OPS',
                       'K/9', 'BB/9', 'H/9', 'R/9', 'HR/9', 'K/BB']
     league_avg_formatted = league_avg_df[league_columns].style.format({
@@ -572,7 +572,7 @@ elif view_selection == "Leaderboard":
     @st.cache_data
     def load_standard_stats():
         standard_stats_files = glob.glob(os.path.join('stats_data', 'df_standard_stats_*.csv'))
-        standard_stats_df_list  = [pd.read_csv(file) for file in standard_stats_files]
+        standard_stats_df_list = [pd.read_csv(file) for file in standard_stats_files]
         return pd.concat(standard_stats_df_list, ignore_index=True)
     
     @st.cache_data
@@ -585,11 +585,9 @@ elif view_selection == "Leaderboard":
     def load_fip_data():
         fip_df = pd.read_csv(os.path.join('stats_data', 'FIP_files.csv'))
         fip_df = fip_df.rename(columns={'x_FIPFB': 'xFIP'})
-        # Select only relevant columns to reduce memory usage
         return fip_df[['player_id', 'season', 'FIP', 'xFIP']]
     
     @st.cache_data
-
     def load_data():
         team_data_std_df = pd.read_csv('team_data_std_p.csv')
         return team_data_std_df
@@ -600,13 +598,10 @@ elif view_selection == "Leaderboard":
     team_data_df = load_data()
 
     advanced_stats_df = advanced_stats_df.merge(fip_df, on=['player_id', 'season'], how='left')
-
     merged_df = pd.merge(standard_stats_df, advanced_stats_df, on=['player_id', 'season'], how='outer', suffixes=('', '_adv'))
-
     merged_df['season'] = merged_df['season'].astype(int)
 
-    display_columns = ['Name', 'team', 'W', 'L',  'ERA', 'WHIP', 'G', 'GS', 'IP', 'QS', 'SV', 'SVOpp', 'BS', 'HLD', 'BF', 'R', 'ER', 'K', 'HR', 'BB', 'HBP', 'BK', 'WP']
-
+    display_columns = ['Name', 'team', 'W', 'L',  'ERA', 'WHIP', 'FIP', 'xFIP', 'G', 'GS', 'IP', 'QS', 'SV', 'SVOpp', 'BS', 'HLD', 'BF', 'R', 'ER', 'K', 'HR', 'BB', 'HBP', 'BK', 'WP']
     st.title("LMP Pitching Leaderboard")
     st.divider()
 
@@ -622,26 +617,58 @@ elif view_selection == "Leaderboard":
         min_ip = st.slider("Min IP", min_value=0, max_value=int(max_ip), value=0)
 
     max_games = team_data_df['GS'].max()
-    ip_threshold = int(max_games * .8)
+    ip_threshold = int(max_games * 0.8)
 
     with col5:
         player_filter = st.radio("Player Filter", ['All Pitchers', "Qualified Pitchers"], horizontal=True)
 
+    # Apply the filter for Qualified Pitchers if selected
     if player_filter == "Qualified Pitchers":
         filtered_df = filtered_df[filtered_df['IP'] >= ip_threshold]
 
+    # Apply the minimum IP filter
     filtered_df = filtered_df[filtered_df['IP'] >= min_ip]
-    filtered_df = filtered_df[display_columns]
+    # Select columns for the main dashboard
+    main_dashboard_df = filtered_df[display_columns]
+    main_dashboard_df = main_dashboard_df.sort_values(by='ERA', ascending=True)
 
-
-    filtered_df = filtered_df.sort_values(by='ERA', ascending=True)
-
-    format_dict = {
+    # Format columns in the main dashboard
+    format_dict_main = {
         'ERA': '{:.2f}',
         'WHIP': '{:.2f}',
         'IP': '{:.1f}',
+        'K-BB%': '{:.2f}',
+        'FIP': '{:.2f}',
+        'xFIP': '{:.2f}',
     }
+    main_dashboard_df = main_dashboard_df.style.format(format_dict_main)
+    st.dataframe(main_dashboard_df, height=600, use_container_width=True, hide_index=True)
 
-    filtered_df = filtered_df.style.format(format_dict)
+    # --- Second Dashboard for K%, BB%, and K-BB% ---
+    st.subheader("Advanced Stats")
+    # Select columns for the second dashboard
+    second_dashboard_columns = ['Name', 'team', 'K%', 'BB%', 'K-BB%', 'K/9', 'BB/9', 'GB%', 'FB%', 'LD%', 'SwStr%', 'Whiff%', 'CSW%', 'AVG', 'OBP', 'SLG', 'OPS']
+    second_dashboard_df = filtered_df[second_dashboard_columns]
+    second_dashboard_df = second_dashboard_df.sort_values(by='K-BB%', ascending=False)
 
-    st.dataframe(filtered_df, height=600, use_container_width=True, hide_index=True)
+    # Format columns in the second dashboard
+    format_dict_second = {
+        'K%': '{:.2f}',
+        'BB%': '{:.2f}',
+        'K-BB%': '{:.2f}',
+        'AVG': '{:.3f}', 'OBP': '{:.3f}', 'SLG': '{:.3f}', 'OPS': '{:.3f}',
+        'K/9': '{:.2f}', 'BB/9': '{:.2f}', 'K/BB': '{:.2f}', 'HR/9': '{:.2f}',
+        'H/9': '{:.2f}', 'R/9': '{:.2f}',
+        'LD%': '{:.1f}',
+        'GB%': '{:.1f}',
+        'FB%': '{:.1f}',
+        'PopUp%': '{:.1f}',
+        'P/IP': '{:.1f}',
+        'SwStr%': '{:.1f}',
+        'Whiff%': '{:.1f}',
+        'Str%': '{:.1f}',
+        'CSW%': '{:.1f}',
+
+    }
+    second_dashboard_df = second_dashboard_df.style.format(format_dict_second)
+    st.dataframe(second_dashboard_df, height=400, use_container_width=True, hide_index=True)
