@@ -5,6 +5,7 @@ PlayerID,FullName,Team,Home,K,BB,BF,GamesPlayed,Date,K%,BB%,K-BB%
 445995,Arturo Lopez,Yaquis de Obregon,True,7,6,77,4,2024-11-05,9.1,7.8,1.2999999999999998
 445995,Arturo Lopez,Yaquis de Obregon,False,8,8,100,5,2024-11-10,8.0,8.0,0.0
 455359,Orlando Lara,Yaquis de Obregon,True,2,1,12,1,2024-11-06,16.7,8.3,8.399999999999999
+455359,Orlando Lara,Yaquis de Obregon,True,8,1,29,2,2024-11-12,27.6,3.4,24.200000000000003
 465038,Alejandro Soto,Venados de Mazatlan,True,0,1,4,1,2024-10-15,0.0,25.0,-25.0
 465038,Alejandro Soto,Venados de Mazatlan,True,0,2,8,2,2024-10-22,0.0,25.0,-25.0
 465038,Alejandro Soto,Venados de Mazatlan,True,1,2,12,3,2024-10-24,8.3,16.7,-8.399999999999999
@@ -50,6 +51,7 @@ PlayerID,FullName,Team,Home,K,BB,BF,GamesPlayed,Date,K%,BB%,K-BB%
 477584,Tomas Solis,Caneros de los Mochis,True,1,1,18,9,2024-11-08,5.6,5.6,0.0
 477584,Tomas Solis,Caneros de los Mochis,True,2,1,19,10,2024-11-09,10.5,5.3,5.2
 477584,Tomas Solis,Caneros de los Mochis,True,2,1,20,11,2024-11-10,10.0,5.0,5.0
+477584,Tomas Solis,Caneros de los Mochis,False,2,1,23,12,2024-11-12,8.7,4.3,4.3999999999999995
 502515,Raul Barron,Naranjeros de Hermosillo,True,1,1,4,1,2024-10-11,25.0,25.0,0.0
 502515,Raul Barron,Naranjeros de Hermosillo,False,1,1,8,2,2024-10-17,12.5,12.5,0.0
 502515,Raul Barron,Naranjeros de Hermosillo,True,1,1,11,3,2024-10-19,9.1,9.1,0.0
@@ -96,6 +98,7 @@ PlayerID,FullName,Team,Home,K,BB,BF,GamesPlayed,Date,K%,BB%,K-BB%
 527054,Julio Teheran,Charros de Jalisco,True,8,3,45,2,2024-10-24,17.8,6.7,11.100000000000001
 527054,Julio Teheran,Charros de Jalisco,True,10,7,65,3,2024-10-31,15.4,10.8,4.6
 527054,Julio Teheran,Charros de Jalisco,True,16,7,85,4,2024-11-06,18.8,8.2,10.600000000000001
+527054,Julio Teheran,Charros de Jalisco,False,17,8,109,5,2024-11-12,15.6,7.3,8.3
 532893,Ivan Salas,Sultanes de Monterrey,False,0,1,2,1,2024-10-11,0.0,50.0,-50.0
 532893,Ivan Salas,Sultanes de Monterrey,True,0,1,3,2,2024-10-22,0.0,33.3,-33.3
 532893,Ivan Salas,Sultanes de Monterrey,True,0,1,6,3,2024-10-23,0.0,16.7,-16.7
@@ -108,6 +111,7 @@ PlayerID,FullName,Team,Home,K,BB,BF,GamesPlayed,Date,K%,BB%,K-BB%
 532893,Ivan Salas,Sultanes de Monterrey,False,0,4,16,10,2024-11-05,0.0,25.0,-25.0
 532893,Ivan Salas,Sultanes de Monterrey,False,0,4,19,11,2024-11-06,0.0,21.1,-21.1
 532893,Ivan Salas,Sultanes de Monterrey,True,1,4,20,12,2024-11-09,5.0,20.0,-15.0
+532893,Ivan Salas,Sultanes de Monterrey,False,1,4,21,13,2024-11-12,4.8,19.0,-14.2
 540988,Demetrio Gutierrez,Venados de Mazatlan,True,1,1,3,1,2024-10-15,33.3,33.3,0.0
 540988,Demetrio Gutierrez,Venados de Mazatlan,True,3,2,8,2,2024-10-17,37.5,25.0,12.5
 540988,Demetrio Gutierrez,Venados de Mazatlan,False,3,2,9,3,2024-10-19,33.3,22.2,11.099999999999998
@@ -141,6 +145,7 @@ PlayerID,FullName,Team,Home,K,BB,BF,GamesPlayed,Date,K%,BB%,K-BB%
 542413,Felipe Gonzalez,Yaquis de Obregon,True,10,8,48,11,2024-11-06,20.8,16.7,4.100000000000001
 542413,Felipe Gonzalez,Yaquis de Obregon,False,11,9,53,12,2024-11-09,20.8,17.0,3.8000000000000007
 542413,Felipe Gonzalez,Yaquis de Obregon,False,12,10,57,13,2024-11-10,21.1,17.5,3.6000000000000014
+542413,Felipe Gonzalez,Yaquis de Obregon,True,14,10,60,14,2024-11-12,23.3,16.7,6.600000000000001
 544365,Manny Bañuelos,Tomateros de Culiacan,True,4,3,21,1,2024-10-19,19.0,14.3,4.699999999999999
 544365,Manny Bañuelos,Tomateros de Culiacan,True,10,6,42,2,2024-10-26,23.8,14.3,9.5
 544365,Manny Bañuelos,Tomateros de Culiacan,True,14,9,65,3,2024-11-02,21.5,13.8,7.699999999999999
@@ -163,6 +168,7 @@ PlayerID,FullName,Team,Home,K,BB,BF,GamesPlayed,Date,K%,BB%,K-BB%
 553868,Norman Elenes,Sultanes de Monterrey,False,6,10,45,11,2024-11-03,13.3,22.2,-8.899999999999999
 553868,Norman Elenes,Sultanes de Monterrey,False,6,10,49,12,2024-11-06,12.2,20.4,-8.2
 553868,Norman Elenes,Sultanes de Monterrey,True,6,10,54,13,2024-11-09,11.1,18.5,-7.4
+553868,Norman Elenes,Sultanes de Monterrey,False,7,12,60,14,2024-11-12,11.7,20.0,-8.3
 554230,Amilcar Gaxiola,Venados de Mazatlan,True,0,0,3,1,2024-10-15,0.0,0.0,0.0
 554230,Amilcar Gaxiola,Venados de Mazatlan,True,0,0,5,2,2024-10-17,0.0,0.0,0.0
 554230,Amilcar Gaxiola,Venados de Mazatlan,True,1,0,10,3,2024-10-24,10.0,0.0,10.0
@@ -173,6 +179,7 @@ PlayerID,FullName,Team,Home,K,BB,BF,GamesPlayed,Date,K%,BB%,K-BB%
 570620,Ivan Zavala,Charros de Jalisco,True,0,2,27,4,2024-10-30,0.0,7.4,-7.4
 570620,Ivan Zavala,Charros de Jalisco,True,0,2,31,5,2024-11-06,0.0,6.5,-6.5
 570620,Ivan Zavala,Charros de Jalisco,False,0,3,34,6,2024-11-09,0.0,8.8,-8.8
+570620,Ivan Zavala,Charros de Jalisco,False,1,3,38,7,2024-11-12,2.6,7.9,-5.300000000000001
 570666,Luis Cessa,Yaquis de Obregon,True,3,2,16,1,2024-10-20,18.8,12.5,6.300000000000001
 570666,Luis Cessa,Yaquis de Obregon,True,7,2,33,2,2024-10-26,21.2,6.1,15.1
 570666,Luis Cessa,Yaquis de Obregon,True,12,2,56,3,2024-11-01,21.4,3.6,17.799999999999997
@@ -222,6 +229,7 @@ PlayerID,FullName,Team,Home,K,BB,BF,GamesPlayed,Date,K%,BB%,K-BB%
 594027,Tayron Guerrero,Naranjeros de Hermosillo,False,6,2,24,5,2024-10-25,25.0,8.3,16.7
 594027,Tayron Guerrero,Naranjeros de Hermosillo,False,8,2,27,6,2024-10-27,29.6,7.4,22.200000000000003
 594027,Tayron Guerrero,Naranjeros de Hermosillo,True,10,2,33,7,2024-10-30,30.3,6.1,24.200000000000003
+594027,Tayron Guerrero,Naranjeros de Hermosillo,True,14,3,40,8,2024-11-12,35.0,7.5,27.5
 594105,Aldo Montes,Tomateros de Culiacan,False,1,2,27,1,2024-10-16,3.7,7.4,-3.7
 594105,Aldo Montes,Tomateros de Culiacan,False,3,4,49,2,2024-10-23,6.1,8.2,-2.0999999999999996
 594105,Aldo Montes,Tomateros de Culiacan,False,5,5,78,3,2024-10-30,6.4,6.4,0.0
@@ -269,6 +277,7 @@ PlayerID,FullName,Team,Home,K,BB,BF,GamesPlayed,Date,K%,BB%,K-BB%
 616405,Mario Meza,Charros de Jalisco,True,10,4,40,10,2024-11-07,25.0,10.0,15.0
 616405,Mario Meza,Charros de Jalisco,False,10,4,41,11,2024-11-08,24.4,9.8,14.599999999999998
 616405,Mario Meza,Charros de Jalisco,False,10,4,44,12,2024-11-09,22.7,9.1,13.6
+616405,Mario Meza,Charros de Jalisco,False,12,4,47,13,2024-11-12,25.5,8.5,17.0
 616617,Adrian Gusman,Charros de Jalisco,False,3,0,3,1,2024-10-13,100.0,0.0,100.0
 616617,Adrian Gusman,Charros de Jalisco,True,4,0,7,2,2024-10-17,57.1,0.0,57.1
 616617,Adrian Gusman,Charros de Jalisco,False,5,0,11,3,2024-10-19,45.5,0.0,45.5
@@ -303,6 +312,7 @@ PlayerID,FullName,Team,Home,K,BB,BF,GamesPlayed,Date,K%,BB%,K-BB%
 619854,Carlos Bustamante,Mayos de Navojoa,True,9,3,38,9,2024-11-02,23.7,7.9,15.799999999999999
 619854,Carlos Bustamante,Mayos de Navojoa,False,10,3,41,10,2024-11-06,24.4,7.3,17.099999999999998
 619854,Carlos Bustamante,Mayos de Navojoa,True,10,4,46,11,2024-11-09,21.7,8.7,13.0
+619854,Carlos Bustamante,Mayos de Navojoa,True,10,4,49,12,2024-11-12,20.4,8.2,12.2
 620396,Miguel Aguilar,Charros de Jalisco,True,0,0,3,1,2024-10-15,0.0,0.0,0.0
 620396,Miguel Aguilar,Charros de Jalisco,True,1,0,6,2,2024-10-17,16.7,0.0,16.7
 620396,Miguel Aguilar,Charros de Jalisco,False,3,0,9,3,2024-10-18,33.3,0.0,33.3
@@ -343,6 +353,7 @@ PlayerID,FullName,Team,Home,K,BB,BF,GamesPlayed,Date,K%,BB%,K-BB%
 623985,Manuel Chavez,Aguilas de Mexicali,False,9,5,29,2,2024-10-23,31.0,17.2,13.8
 623985,Manuel Chavez,Aguilas de Mexicali,True,15,7,48,3,2024-10-29,31.2,14.6,16.6
 623985,Manuel Chavez,Aguilas de Mexicali,True,16,9,62,4,2024-11-06,25.8,14.5,11.3
+623985,Manuel Chavez,Aguilas de Mexicali,True,20,11,80,5,2024-11-12,25.0,13.8,11.2
 625068,Javier Rodriguez,Naranjeros de Hermosillo,False,0,1,7,1,2024-10-16,0.0,14.3,-14.3
 625068,Javier Rodriguez,Naranjeros de Hermosillo,False,0,5,16,2,2024-11-08,0.0,31.2,-31.2
 628333,Odrisamer Despaigne,Yaquis de Obregon,False,2,2,20,1,2024-10-11,10.0,10.0,0.0
@@ -409,6 +420,7 @@ PlayerID,FullName,Team,Home,K,BB,BF,GamesPlayed,Date,K%,BB%,K-BB%
 642590,Francisco Rios,Sultanes de Monterrey,False,1,5,13,3,2024-10-27,7.7,38.5,-30.8
 642590,Francisco Rios,Sultanes de Monterrey,True,1,5,16,4,2024-11-08,6.2,31.2,-25.0
 642590,Francisco Rios,Sultanes de Monterrey,True,2,5,22,5,2024-11-10,9.1,22.7,-13.6
+642590,Francisco Rios,Sultanes de Monterrey,False,2,6,24,6,2024-11-12,8.3,25.0,-16.7
 642856,Fabian Anguamea,Algodoneros de Guasave,False,0,1,2,1,2024-10-12,0.0,50.0,-50.0
 642856,Fabian Anguamea,Algodoneros de Guasave,True,3,2,6,2,2024-10-15,50.0,33.3,16.700000000000003
 642856,Fabian Anguamea,Algodoneros de Guasave,True,4,2,9,3,2024-10-16,44.4,22.2,22.2
@@ -420,6 +432,7 @@ PlayerID,FullName,Team,Home,K,BB,BF,GamesPlayed,Date,K%,BB%,K-BB%
 642856,Fabian Anguamea,Algodoneros de Guasave,True,14,3,39,9,2024-11-02,35.9,7.7,28.2
 642856,Fabian Anguamea,Algodoneros de Guasave,False,14,3,40,10,2024-11-05,35.0,7.5,27.5
 642856,Fabian Anguamea,Algodoneros de Guasave,True,15,3,44,11,2024-11-08,34.1,6.8,27.3
+642856,Fabian Anguamea,Algodoneros de Guasave,False,15,3,47,12,2024-11-12,31.9,6.4,25.5
 643494,A.J. Puckett,Naranjeros de Hermosillo,False,0,0,4,1,2024-10-12,0.0,0.0,0.0
 643494,A.J. Puckett,Naranjeros de Hermosillo,False,3,0,12,2,2024-10-15,25.0,0.0,25.0
 643494,A.J. Puckett,Naranjeros de Hermosillo,True,7,1,20,3,2024-10-20,35.0,5.0,30.0
@@ -432,6 +445,7 @@ PlayerID,FullName,Team,Home,K,BB,BF,GamesPlayed,Date,K%,BB%,K-BB%
 643494,A.J. Puckett,Naranjeros de Hermosillo,False,15,2,53,10,2024-11-02,28.3,3.8,24.5
 643494,A.J. Puckett,Naranjeros de Hermosillo,True,15,3,60,11,2024-11-05,25.0,5.0,20.0
 643494,A.J. Puckett,Naranjeros de Hermosillo,False,16,4,66,12,2024-11-09,24.2,6.1,18.1
+643494,A.J. Puckett,Naranjeros de Hermosillo,True,18,5,73,13,2024-11-12,24.7,6.8,17.9
 643518,Jose Samayoa,Naranjeros de Hermosillo,False,5,1,19,1,2024-10-15,26.3,5.3,21.0
 643518,Jose Samayoa,Naranjeros de Hermosillo,True,7,2,38,2,2024-10-20,18.4,5.3,13.099999999999998
 643518,Jose Samayoa,Naranjeros de Hermosillo,False,15,3,63,3,2024-10-26,23.8,4.8,19.0
@@ -450,6 +464,7 @@ PlayerID,FullName,Team,Home,K,BB,BF,GamesPlayed,Date,K%,BB%,K-BB%
 644425,Jake Sanchez,Aguilas de Mexicali,False,9,6,44,11,2024-11-02,20.5,13.6,6.9
 644425,Jake Sanchez,Aguilas de Mexicali,True,12,6,47,12,2024-11-05,25.5,12.8,12.7
 644425,Jake Sanchez,Aguilas de Mexicali,False,14,6,50,13,2024-11-09,28.0,12.0,16.0
+644425,Jake Sanchez,Aguilas de Mexicali,True,14,6,53,14,2024-11-12,26.4,11.3,15.099999999999998
 645179,Luis Ivan Rodriguez,Charros de Jalisco,True,5,1,20,1,2024-10-12,25.0,5.0,20.0
 645179,Luis Ivan Rodriguez,Charros de Jalisco,False,10,1,42,2,2024-10-18,23.8,2.4,21.400000000000002
 645179,Luis Ivan Rodriguez,Charros de Jalisco,False,14,2,64,3,2024-10-25,21.9,3.1,18.799999999999997
@@ -466,6 +481,7 @@ PlayerID,FullName,Team,Home,K,BB,BF,GamesPlayed,Date,K%,BB%,K-BB%
 645799,Isaac Jimenez,Charros de Jalisco,False,5,4,33,9,2024-11-01,15.2,12.1,3.0999999999999996
 645799,Isaac Jimenez,Charros de Jalisco,True,7,4,35,10,2024-11-06,20.0,11.4,8.6
 645799,Isaac Jimenez,Charros de Jalisco,False,8,4,38,11,2024-11-09,21.1,10.5,10.600000000000001
+645799,Isaac Jimenez,Charros de Jalisco,False,8,5,41,12,2024-11-12,19.5,12.2,7.300000000000001
 650204,Norge Ruiz,Sultanes de Monterrey,True,2,2,15,1,2024-11-10,13.3,13.3,0.0
 650813,Luis Escobar,Venados de Mazatlan,True,4,2,26,1,2024-10-17,15.4,7.7,7.7
 650813,Luis Escobar,Venados de Mazatlan,True,5,3,45,2,2024-10-23,11.1,6.7,4.3999999999999995
@@ -484,6 +500,7 @@ PlayerID,FullName,Team,Home,K,BB,BF,GamesPlayed,Date,K%,BB%,K-BB%
 650980,Samuel Zazueta,Yaquis de Obregon,True,6,1,37,10,2024-11-06,16.2,2.7,13.5
 650980,Samuel Zazueta,Yaquis de Obregon,False,6,1,38,11,2024-11-09,15.8,2.6,13.200000000000001
 650980,Samuel Zazueta,Yaquis de Obregon,False,7,2,46,12,2024-11-10,15.2,4.3,10.899999999999999
+650980,Samuel Zazueta,Yaquis de Obregon,True,8,2,50,13,2024-11-12,16.0,4.0,12.0
 653252,Sasagi Sanchez,Tomateros de Culiacan,True,0,0,4,1,2024-10-12,0.0,0.0,0.0
 653252,Sasagi Sanchez,Tomateros de Culiacan,False,1,0,7,2,2024-10-16,14.3,0.0,14.3
 653252,Sasagi Sanchez,Tomateros de Culiacan,True,2,0,10,3,2024-10-18,20.0,0.0,20.0
@@ -516,6 +533,7 @@ PlayerID,FullName,Team,Home,K,BB,BF,GamesPlayed,Date,K%,BB%,K-BB%
 657116,Zach Willeman,Yaquis de Obregon,True,7,7,48,10,2024-11-05,14.6,14.6,0.0
 657116,Zach Willeman,Yaquis de Obregon,False,9,8,52,11,2024-11-08,17.3,15.4,1.9000000000000004
 657116,Zach Willeman,Yaquis de Obregon,False,12,10,57,12,2024-11-10,21.1,17.5,3.6000000000000014
+657116,Zach Willeman,Yaquis de Obregon,True,12,10,60,13,2024-11-12,20.0,16.7,3.3000000000000007
 658140,Wilmer Rios,Naranjeros de Hermosillo,True,2,1,19,1,2024-10-20,10.5,5.3,5.2
 658140,Wilmer Rios,Naranjeros de Hermosillo,False,3,2,36,2,2024-10-25,8.3,5.6,2.700000000000001
 658140,Wilmer Rios,Naranjeros de Hermosillo,True,6,3,57,3,2024-10-31,10.5,5.3,5.2
@@ -529,6 +547,7 @@ PlayerID,FullName,Team,Home,K,BB,BF,GamesPlayed,Date,K%,BB%,K-BB%
 660604,Alan Rangel,Naranjeros de Hermosillo,True,11,2,66,3,2024-10-24,16.7,3.0,13.7
 660604,Alan Rangel,Naranjeros de Hermosillo,True,14,4,87,4,2024-10-30,16.1,4.6,11.500000000000002
 660604,Alan Rangel,Naranjeros de Hermosillo,True,17,7,104,5,2024-11-06,16.3,6.7,9.600000000000001
+660604,Alan Rangel,Naranjeros de Hermosillo,True,21,7,120,6,2024-11-12,17.5,5.8,11.7
 660610,Carlos De Leon,Sultanes de Monterrey,True,0,0,7,1,2024-10-23,0.0,0.0,0.0
 660826,Lupe Chavez,Caneros de los Mochis,True,1,0,9,1,2024-10-17,11.1,0.0,11.1
 660826,Lupe Chavez,Caneros de los Mochis,False,3,1,16,2,2024-10-20,18.8,6.2,12.600000000000001
@@ -574,6 +593,7 @@ PlayerID,FullName,Team,Home,K,BB,BF,GamesPlayed,Date,K%,BB%,K-BB%
 662964,Francisco Haro,Mayos de Navojoa,True,9,3,35,9,2024-11-02,25.7,8.6,17.1
 662964,Francisco Haro,Mayos de Navojoa,False,10,3,38,10,2024-11-06,26.3,7.9,18.4
 662964,Francisco Haro,Mayos de Navojoa,True,12,3,41,11,2024-11-09,29.3,7.3,22.0
+662964,Francisco Haro,Mayos de Navojoa,True,14,3,49,12,2024-11-12,28.6,6.1,22.5
 663603,Solomon Bates,Yaquis de Obregon,False,1,3,12,1,2024-11-09,8.3,25.0,-16.7
 663793,Dakota Chalmers,Algodoneros de Guasave,True,8,1,22,1,2024-10-16,36.4,4.5,31.9
 663793,Dakota Chalmers,Algodoneros de Guasave,False,12,5,42,2,2024-10-22,28.6,11.9,16.700000000000003
@@ -584,11 +604,13 @@ PlayerID,FullName,Team,Home,K,BB,BF,GamesPlayed,Date,K%,BB%,K-BB%
 663820,Alex Valverde,Mayos de Navojoa,False,3,1,8,2,2024-11-06,37.5,12.5,25.0
 663820,Alex Valverde,Mayos de Navojoa,True,3,3,12,3,2024-11-09,25.0,25.0,0.0
 663820,Alex Valverde,Mayos de Navojoa,True,4,4,17,4,2024-11-10,23.5,23.5,0.0
+663820,Alex Valverde,Mayos de Navojoa,True,6,5,21,5,2024-11-12,28.6,23.8,4.800000000000001
 663884,Nolan Kingham,Venados de Mazatlan,True,7,1,21,1,2024-10-13,33.3,4.8,28.499999999999996
 663884,Nolan Kingham,Venados de Mazatlan,False,16,1,41,2,2024-10-20,39.0,2.4,36.6
 663884,Nolan Kingham,Venados de Mazatlan,False,19,3,66,3,2024-10-25,28.8,4.5,24.3
 663884,Nolan Kingham,Venados de Mazatlan,True,21,6,96,4,2024-10-31,21.9,6.2,15.7
 663884,Nolan Kingham,Venados de Mazatlan,True,25,8,121,5,2024-11-06,20.7,6.6,14.1
+663884,Nolan Kingham,Venados de Mazatlan,True,28,9,148,6,2024-11-12,18.9,6.1,12.799999999999999
 664039,Geno Encina,Algodoneros de Guasave,True,0,3,15,1,2024-10-17,0.0,20.0,-20.0
 664039,Geno Encina,Algodoneros de Guasave,True,0,4,17,2,2024-10-25,0.0,23.5,-23.5
 664039,Geno Encina,Algodoneros de Guasave,False,0,5,27,3,2024-10-29,0.0,18.5,-18.5
@@ -597,6 +619,7 @@ PlayerID,FullName,Team,Home,K,BB,BF,GamesPlayed,Date,K%,BB%,K-BB%
 664475,Edgar Torres,Sultanes de Monterrey,False,9,6,66,3,2024-10-25,13.6,9.1,4.5
 664475,Edgar Torres,Sultanes de Monterrey,True,11,7,94,4,2024-10-31,11.7,7.4,4.299999999999999
 664475,Edgar Torres,Sultanes de Monterrey,False,17,10,119,5,2024-11-06,14.3,8.4,5.9
+664475,Edgar Torres,Sultanes de Monterrey,False,19,11,138,6,2024-11-12,13.8,8.0,5.800000000000001
 664823,David Gutierrez,Tomateros de Culiacan,True,1,0,2,1,2024-10-12,50.0,0.0,50.0
 664823,David Gutierrez,Tomateros de Culiacan,False,3,0,5,2,2024-10-13,60.0,0.0,60.0
 664823,David Gutierrez,Tomateros de Culiacan,False,3,0,6,3,2024-10-16,50.0,0.0,50.0
@@ -627,6 +650,7 @@ PlayerID,FullName,Team,Home,K,BB,BF,GamesPlayed,Date,K%,BB%,K-BB%
 666017,Ruben Reyes,Tomateros de Culiacan,False,2,2,7,2,2024-10-15,28.6,28.6,0.0
 666017,Ruben Reyes,Tomateros de Culiacan,False,2,2,12,3,2024-10-17,16.7,16.7,0.0
 666017,Ruben Reyes,Tomateros de Culiacan,True,2,2,13,4,2024-11-08,15.4,15.4,0.0
+666017,Ruben Reyes,Tomateros de Culiacan,False,3,3,18,5,2024-11-12,16.7,16.7,0.0
 666208,Alex Speas,Venados de Mazatlan,False,2,0,3,1,2024-10-12,66.7,0.0,66.7
 666208,Alex Speas,Venados de Mazatlan,True,2,0,7,2,2024-10-13,28.6,0.0,28.6
 666208,Alex Speas,Venados de Mazatlan,True,2,1,13,3,2024-10-16,15.4,7.7,7.7
@@ -648,6 +672,7 @@ PlayerID,FullName,Team,Home,K,BB,BF,GamesPlayed,Date,K%,BB%,K-BB%
 667050,Grant Gavin,Algodoneros de Guasave,True,16,4,54,3,2024-10-25,29.6,7.4,22.200000000000003
 667050,Grant Gavin,Algodoneros de Guasave,False,19,6,76,4,2024-10-31,25.0,7.9,17.1
 667050,Grant Gavin,Algodoneros de Guasave,False,21,8,94,5,2024-11-06,22.3,8.5,13.8
+667050,Grant Gavin,Algodoneros de Guasave,False,27,10,116,6,2024-11-12,23.3,8.6,14.700000000000001
 667378,Dauris Valdez,Caneros de los Mochis,True,0,0,3,1,2024-11-10,0.0,0.0,0.0
 667712,Austin Hansen,Sultanes de Monterrey,False,1,0,4,1,2024-10-11,25.0,0.0,25.0
 667712,Austin Hansen,Sultanes de Monterrey,True,4,1,11,2,2024-10-14,36.4,9.1,27.299999999999997
@@ -680,6 +705,7 @@ PlayerID,FullName,Team,Home,K,BB,BF,GamesPlayed,Date,K%,BB%,K-BB%
 667918,Erick Casillas,Venados de Mazatlan,False,8,6,42,11,2024-11-03,19.0,14.3,4.699999999999999
 667918,Erick Casillas,Venados de Mazatlan,False,10,6,47,12,2024-11-08,21.3,12.8,8.5
 667918,Erick Casillas,Venados de Mazatlan,False,13,7,51,13,2024-11-09,25.5,13.7,11.8
+667918,Erick Casillas,Venados de Mazatlan,True,13,8,56,14,2024-11-12,23.2,14.3,8.899999999999999
 668155,Alberto Leyva,Charros de Jalisco,True,0,1,6,1,2024-10-12,0.0,16.7,-16.7
 668155,Alberto Leyva,Charros de Jalisco,True,1,2,11,2,2024-10-16,9.1,18.2,-9.1
 668155,Alberto Leyva,Charros de Jalisco,False,3,3,14,3,2024-10-19,21.4,21.4,0.0
@@ -717,6 +743,8 @@ PlayerID,FullName,Team,Home,K,BB,BF,GamesPlayed,Date,K%,BB%,K-BB%
 669214,Conner Menez,Tomateros de Culiacan,False,2,4,21,1,2024-10-17,9.5,19.0,-9.5
 669214,Conner Menez,Tomateros de Culiacan,False,9,8,43,2,2024-10-24,20.9,18.6,2.299999999999997
 669214,Conner Menez,Tomateros de Culiacan,False,13,14,68,3,2024-11-05,19.1,20.6,-1.5
+669214,Conner Menez,Tomateros de Culiacan,False,14,18,85,4,2024-11-12,16.5,21.2,-4.699999999999999
+670328,Juan Gámez,Caneros de los Mochis,False,0,2,4,1,2024-11-12,0.0,50.0,-50.0
 670416,Zach Matson,Mayos de Navojoa,False,3,2,18,1,2024-10-16,16.7,11.1,5.6
 670416,Zach Matson,Mayos de Navojoa,False,5,5,37,2,2024-10-22,13.5,13.5,0.0
 670416,Zach Matson,Mayos de Navojoa,True,8,8,60,3,2024-10-27,13.3,13.3,0.0
@@ -736,6 +764,7 @@ PlayerID,FullName,Team,Home,K,BB,BF,GamesPlayed,Date,K%,BB%,K-BB%
 671790,Ronald Bolaños,Caneros de los Mochis,False,13,7,53,3,2024-10-26,24.5,13.2,11.3
 671790,Ronald Bolaños,Caneros de los Mochis,True,14,10,65,4,2024-11-01,21.5,15.4,6.1
 671790,Ronald Bolaños,Caneros de los Mochis,False,19,15,90,5,2024-11-06,21.1,16.7,4.400000000000002
+671790,Ronald Bolaños,Caneros de los Mochis,False,24,19,112,6,2024-11-12,21.4,17.0,4.399999999999999
 672598,Alemao Hernandez,Charros de Jalisco,True,1,4,22,1,2024-10-16,4.5,18.2,-13.7
 672598,Alemao Hernandez,Charros de Jalisco,True,5,5,46,2,2024-10-23,10.9,10.9,0.0
 672598,Alemao Hernandez,Charros de Jalisco,True,5,8,63,3,2024-10-30,7.9,12.7,-4.799999999999999
@@ -745,6 +774,7 @@ PlayerID,FullName,Team,Home,K,BB,BF,GamesPlayed,Date,K%,BB%,K-BB%
 672666,Adolfo Ramirez,Venados de Mazatlan,False,3,1,6,2,2024-11-01,50.0,16.7,33.3
 672666,Adolfo Ramirez,Venados de Mazatlan,True,4,1,9,3,2024-11-05,44.4,11.1,33.3
 672666,Adolfo Ramirez,Venados de Mazatlan,True,5,1,14,4,2024-11-06,35.7,7.1,28.6
+672666,Adolfo Ramirez,Venados de Mazatlan,True,6,1,15,5,2024-11-12,40.0,6.7,33.3
 672911,Jesus Cruz,Aguilas de Mexicali,False,2,0,4,1,2024-10-13,50.0,0.0,50.0
 672911,Jesus Cruz,Aguilas de Mexicali,False,3,0,7,2,2024-10-14,42.9,0.0,42.9
 672911,Jesus Cruz,Aguilas de Mexicali,True,5,0,10,3,2024-10-18,50.0,0.0,50.0
@@ -782,6 +812,7 @@ PlayerID,FullName,Team,Home,K,BB,BF,GamesPlayed,Date,K%,BB%,K-BB%
 675132,Yamil Castillo,Aguilas de Mexicali,True,0,0,11,2,2024-10-31,0.0,0.0,0.0
 675132,Yamil Castillo,Aguilas de Mexicali,True,0,2,17,3,2024-11-06,0.0,11.8,-11.8
 675132,Yamil Castillo,Aguilas de Mexicali,False,2,3,23,4,2024-11-08,8.7,13.0,-4.300000000000001
+675132,Yamil Castillo,Aguilas de Mexicali,True,2,3,25,5,2024-11-12,8.0,12.0,-4.0
 675188,Hector Villalobos,Venados de Mazatlan,True,0,0,1,1,2024-10-16,0.0,0.0,0.0
 675188,Hector Villalobos,Venados de Mazatlan,True,2,0,4,2,2024-10-22,50.0,0.0,50.0
 675188,Hector Villalobos,Venados de Mazatlan,True,3,1,8,3,2024-10-23,37.5,12.5,25.0
@@ -823,6 +854,7 @@ PlayerID,FullName,Team,Home,K,BB,BF,GamesPlayed,Date,K%,BB%,K-BB%
 676520,Manuel Alvarez,Caneros de los Mochis,False,5,4,17,4,2024-11-06,29.4,23.5,5.899999999999999
 676520,Manuel Alvarez,Caneros de los Mochis,True,7,5,23,5,2024-11-09,30.4,21.7,8.7
 676520,Manuel Alvarez,Caneros de los Mochis,True,7,7,28,6,2024-11-10,25.0,25.0,0.0
+676520,Manuel Alvarez,Caneros de los Mochis,False,8,8,31,7,2024-11-12,25.8,25.8,0.0
 676666,Matt Turner,Sultanes de Monterrey,False,1,2,5,1,2024-10-11,20.0,40.0,-20.0
 676666,Matt Turner,Sultanes de Monterrey,True,1,2,10,2,2024-10-13,10.0,20.0,-10.0
 676666,Matt Turner,Sultanes de Monterrey,True,2,2,15,3,2024-10-15,13.3,13.3,0.0
@@ -835,6 +867,7 @@ PlayerID,FullName,Team,Home,K,BB,BF,GamesPlayed,Date,K%,BB%,K-BB%
 676666,Matt Turner,Sultanes de Monterrey,False,11,3,41,10,2024-11-02,26.8,7.3,19.5
 676666,Matt Turner,Sultanes de Monterrey,False,12,3,44,11,2024-11-03,27.3,6.8,20.5
 676666,Matt Turner,Sultanes de Monterrey,False,13,4,52,12,2024-11-07,25.0,7.7,17.3
+676666,Matt Turner,Sultanes de Monterrey,False,15,4,57,13,2024-11-12,26.3,7.0,19.3
 676689,Ricky Karcher,Naranjeros de Hermosillo,False,2,2,6,1,2024-10-12,33.3,33.3,0.0
 676689,Ricky Karcher,Naranjeros de Hermosillo,False,3,2,9,2,2024-10-17,33.3,22.2,11.099999999999998
 676689,Ricky Karcher,Naranjeros de Hermosillo,True,4,2,12,3,2024-10-19,33.3,16.7,16.599999999999998
@@ -866,6 +899,7 @@ PlayerID,FullName,Team,Home,K,BB,BF,GamesPlayed,Date,K%,BB%,K-BB%
 677604,Damian Mendoza,Mayos de Navojoa,False,7,3,32,4,2024-10-31,21.9,9.4,12.499999999999998
 677604,Damian Mendoza,Mayos de Navojoa,True,9,3,38,5,2024-11-02,23.7,7.9,15.799999999999999
 677604,Damian Mendoza,Mayos de Navojoa,False,11,4,54,6,2024-11-06,20.4,7.4,12.999999999999998
+677604,Damian Mendoza,Mayos de Navojoa,True,17,7,72,7,2024-11-12,23.6,9.7,13.900000000000002
 677915,Dario Gardea,Charros de Jalisco,True,1,0,4,1,2024-10-16,25.0,0.0,25.0
 677915,Dario Gardea,Charros de Jalisco,True,2,0,7,2,2024-10-17,28.6,0.0,28.6
 677915,Dario Gardea,Charros de Jalisco,False,2,0,10,3,2024-10-19,20.0,0.0,20.0
@@ -897,7 +931,9 @@ PlayerID,FullName,Team,Home,K,BB,BF,GamesPlayed,Date,K%,BB%,K-BB%
 678713,Efrain Contreras,Tomateros de Culiacan,True,9,2,31,8,2024-11-02,29.0,6.5,22.5
 678713,Efrain Contreras,Tomateros de Culiacan,False,10,2,34,9,2024-11-06,29.4,5.9,23.5
 678713,Efrain Contreras,Tomateros de Culiacan,True,13,2,38,10,2024-11-10,34.2,5.3,28.900000000000002
+678713,Efrain Contreras,Tomateros de Culiacan,False,14,3,43,11,2024-11-12,32.6,7.0,25.6
 679013,Sammy Tavarez,Venados de Mazatlan,False,0,2,7,1,2024-11-10,0.0,28.6,-28.6
+679013,Sammy Tavarez,Venados de Mazatlan,True,1,3,12,2,2024-11-12,8.3,25.0,-16.7
 679857,Carlos Tavera,Mayos de Navojoa,True,4,2,17,1,2024-10-12,23.5,11.8,11.7
 679857,Carlos Tavera,Mayos de Navojoa,True,6,4,35,2,2024-10-19,17.1,11.4,5.700000000000001
 679857,Carlos Tavera,Mayos de Navojoa,False,11,8,58,3,2024-10-24,19.0,13.8,5.199999999999999
@@ -921,6 +957,7 @@ PlayerID,FullName,Team,Home,K,BB,BF,GamesPlayed,Date,K%,BB%,K-BB%
 680653,Denny Roman,Mayos de Navojoa,False,2,2,20,9,2024-11-06,10.0,10.0,0.0
 680653,Denny Roman,Mayos de Navojoa,True,3,2,22,10,2024-11-09,13.6,9.1,4.5
 680653,Denny Roman,Mayos de Navojoa,True,5,3,25,11,2024-11-10,20.0,12.0,8.0
+680653,Denny Roman,Mayos de Navojoa,True,5,4,28,12,2024-11-12,17.9,14.3,3.599999999999998
 681659,Jorge Rodriguez,Naranjeros de Hermosillo,False,0,0,1,1,2024-10-12,0.0,0.0,0.0
 681659,Jorge Rodriguez,Naranjeros de Hermosillo,False,0,0,4,2,2024-10-25,0.0,0.0,0.0
 681659,Jorge Rodriguez,Naranjeros de Hermosillo,False,1,0,9,3,2024-11-01,11.1,0.0,11.1
@@ -948,6 +985,7 @@ PlayerID,FullName,Team,Home,K,BB,BF,GamesPlayed,Date,K%,BB%,K-BB%
 681871,Eli Villalobos,Aguilas de Mexicali,True,7,3,38,13,2024-11-07,18.4,7.9,10.499999999999998
 681871,Eli Villalobos,Aguilas de Mexicali,False,8,3,41,14,2024-11-09,19.5,7.3,12.2
 681871,Eli Villalobos,Aguilas de Mexicali,False,10,3,43,15,2024-11-10,23.3,7.0,16.3
+681871,Eli Villalobos,Aguilas de Mexicali,True,10,4,47,16,2024-11-12,21.3,8.5,12.8
 682608,Peyton Gray,Algodoneros de Guasave,False,0,2,2,1,2024-10-19,0.0,100.0,-100.0
 682608,Peyton Gray,Algodoneros de Guasave,True,0,2,5,2,2024-11-02,0.0,40.0,-40.0
 682608,Peyton Gray,Algodoneros de Guasave,False,1,2,8,3,2024-11-06,12.5,25.0,-12.5
@@ -961,6 +999,7 @@ PlayerID,FullName,Team,Home,K,BB,BF,GamesPlayed,Date,K%,BB%,K-BB%
 682779,Jose Luna,Caneros de los Mochis,True,2,3,16,6,2024-11-02,12.5,18.8,-6.300000000000001
 682779,Jose Luna,Caneros de los Mochis,False,2,5,18,7,2024-11-06,11.1,27.8,-16.700000000000003
 682779,Jose Luna,Caneros de los Mochis,True,2,5,22,8,2024-11-09,9.1,22.7,-13.6
+682779,Jose Luna,Caneros de los Mochis,False,2,5,23,9,2024-11-12,8.7,21.7,-13.0
 682961,Mario Perez,Sultanes de Monterrey,False,0,0,4,1,2024-10-11,0.0,0.0,0.0
 682961,Mario Perez,Sultanes de Monterrey,True,0,2,9,2,2024-10-14,0.0,22.2,-22.2
 682961,Mario Perez,Sultanes de Monterrey,True,0,3,13,3,2024-10-15,0.0,23.1,-23.1
@@ -1010,6 +1049,7 @@ PlayerID,FullName,Team,Home,K,BB,BF,GamesPlayed,Date,K%,BB%,K-BB%
 685692,Vicente Valenzuela,Caneros de los Mochis,True,4,2,15,2,2024-10-24,26.7,13.3,13.399999999999999
 685692,Vicente Valenzuela,Caneros de los Mochis,False,5,5,24,3,2024-10-30,20.8,20.8,0.0
 685692,Vicente Valenzuela,Caneros de los Mochis,False,5,5,27,4,2024-11-06,18.5,18.5,0.0
+685719,Fernando Sanchez,Yaquis de Obregon,True,2,0,4,1,2024-11-12,50.0,0.0,50.0
 685829,Irving Machuca,Caneros de los Mochis,False,2,0,2,1,2024-10-12,100.0,0.0,100.0
 685829,Irving Machuca,Caneros de los Mochis,True,4,1,7,2,2024-10-13,57.1,14.3,42.8
 685829,Irving Machuca,Caneros de los Mochis,True,6,1,12,3,2024-10-15,50.0,8.3,41.7
@@ -1024,6 +1064,7 @@ PlayerID,FullName,Team,Home,K,BB,BF,GamesPlayed,Date,K%,BB%,K-BB%
 685829,Irving Machuca,Caneros de los Mochis,False,19,4,53,12,2024-11-05,35.8,7.5,28.299999999999997
 685829,Irving Machuca,Caneros de los Mochis,False,21,5,58,13,2024-11-07,36.2,8.6,27.6
 685829,Irving Machuca,Caneros de los Mochis,True,21,5,61,14,2024-11-09,34.4,8.2,26.2
+685829,Irving Machuca,Caneros de los Mochis,False,21,5,65,15,2024-11-12,32.3,7.7,24.599999999999998
 686317,Edgar Manzo,Charros de Jalisco,True,0,1,7,1,2024-10-12,0.0,14.3,-14.3
 686317,Edgar Manzo,Charros de Jalisco,True,1,2,12,2,2024-10-16,8.3,16.7,-8.399999999999999
 686317,Edgar Manzo,Charros de Jalisco,True,1,2,13,3,2024-10-17,7.7,15.4,-7.7
@@ -1053,6 +1094,7 @@ PlayerID,FullName,Team,Home,K,BB,BF,GamesPlayed,Date,K%,BB%,K-BB%
 690909,Daniel Cruz,Aguilas de Mexicali,True,7,4,41,10,2024-11-06,17.1,9.8,7.300000000000001
 690909,Daniel Cruz,Aguilas de Mexicali,True,7,5,45,11,2024-11-07,15.6,11.1,4.5
 690909,Daniel Cruz,Aguilas de Mexicali,False,10,6,49,12,2024-11-09,20.4,12.2,8.2
+690909,Daniel Cruz,Aguilas de Mexicali,True,11,6,55,13,2024-11-12,20.0,10.9,9.1
 691376,Irving Medina,Venados de Mazatlan,False,1,1,4,1,2024-11-01,25.0,25.0,0.0
 691388,Jonas Garibay,Caneros de los Mochis,True,0,1,5,1,2024-10-17,0.0,20.0,-20.0
 691388,Jonas Garibay,Caneros de los Mochis,False,1,1,10,2,2024-10-20,10.0,10.0,0.0
@@ -1082,6 +1124,7 @@ PlayerID,FullName,Team,Home,K,BB,BF,GamesPlayed,Date,K%,BB%,K-BB%
 691839,Joe Jones,Charros de Jalisco,True,0,2,11,3,2024-11-06,0.0,18.2,-18.2
 691839,Joe Jones,Charros de Jalisco,False,0,3,16,4,2024-11-08,0.0,18.8,-18.8
 691839,Joe Jones,Charros de Jalisco,False,1,3,19,5,2024-11-10,5.3,15.8,-10.5
+691839,Joe Jones,Charros de Jalisco,False,2,3,22,6,2024-11-12,9.1,13.6,-4.5
 691928,Patricio Ress,Aguilas de Mexicali,True,1,0,2,1,2024-10-20,50.0,0.0,50.0
 691928,Patricio Ress,Aguilas de Mexicali,False,1,0,6,2,2024-10-23,16.7,0.0,16.7
 691928,Patricio Ress,Aguilas de Mexicali,True,2,1,12,3,2024-11-06,16.7,8.3,8.399999999999999
@@ -1135,6 +1178,7 @@ PlayerID,FullName,Team,Home,K,BB,BF,GamesPlayed,Date,K%,BB%,K-BB%
 694756,J.P. Woodward,Venados de Mazatlan,False,3,9,50,12,2024-11-03,6.0,18.0,-12.0
 694756,J.P. Woodward,Venados de Mazatlan,True,5,10,56,13,2024-11-07,8.9,17.9,-8.999999999999998
 694756,J.P. Woodward,Venados de Mazatlan,False,5,10,59,14,2024-11-09,8.5,16.9,-8.399999999999999
+694756,J.P. Woodward,Venados de Mazatlan,True,6,11,62,15,2024-11-12,9.7,17.7,-8.0
 695871,Jesus Broca,Algodoneros de Guasave,True,1,1,4,1,2024-10-13,25.0,25.0,0.0
 695871,Jesus Broca,Algodoneros de Guasave,True,1,1,5,2,2024-10-15,20.0,20.0,0.0
 695871,Jesus Broca,Algodoneros de Guasave,True,2,2,11,3,2024-10-17,18.2,18.2,0.0
@@ -1150,6 +1194,7 @@ PlayerID,FullName,Team,Home,K,BB,BF,GamesPlayed,Date,K%,BB%,K-BB%
 698962,Ricardo Estrada,Tomateros de Culiacan,False,4,1,12,4,2024-10-23,33.3,8.3,24.999999999999996
 698962,Ricardo Estrada,Tomateros de Culiacan,False,4,2,16,5,2024-10-30,25.0,12.5,12.5
 698962,Ricardo Estrada,Tomateros de Culiacan,False,5,3,20,6,2024-11-05,25.0,15.0,10.0
+698962,Ricardo Estrada,Tomateros de Culiacan,False,6,4,26,7,2024-11-12,23.1,15.4,7.700000000000001
 699063,Pedro Santillan,Aguilas de Mexicali,True,0,0,2,1,2024-10-11,0.0,0.0,0.0
 699063,Pedro Santillan,Aguilas de Mexicali,False,0,1,4,2,2024-10-15,0.0,25.0,-25.0
 699063,Pedro Santillan,Aguilas de Mexicali,True,0,2,10,3,2024-10-25,0.0,20.0,-20.0
@@ -1180,6 +1225,7 @@ PlayerID,FullName,Team,Home,K,BB,BF,GamesPlayed,Date,K%,BB%,K-BB%
 701063,Pablo Tellez,Venados de Mazatlan,False,9,4,52,3,2024-10-26,17.3,7.7,9.600000000000001
 701063,Pablo Tellez,Venados de Mazatlan,False,15,4,69,4,2024-11-01,21.7,5.8,15.899999999999999
 701063,Pablo Tellez,Venados de Mazatlan,True,18,5,90,5,2024-11-07,20.0,5.6,14.4
+701195,Manuel Castro,Algodoneros de Guasave,False,0,0,3,1,2024-11-12,0.0,0.0,0.0
 701432,Orlando Gonzalez,Naranjeros de Hermosillo,False,1,0,5,1,2024-10-15,20.0,0.0,20.0
 701432,Orlando Gonzalez,Naranjeros de Hermosillo,True,1,0,9,2,2024-10-22,11.1,0.0,11.1
 701432,Orlando Gonzalez,Naranjeros de Hermosillo,False,1,0,10,3,2024-11-08,10.0,0.0,10.0
@@ -1242,11 +1288,13 @@ PlayerID,FullName,Team,Home,K,BB,BF,GamesPlayed,Date,K%,BB%,K-BB%
 703725,Luis Gastelum,Caneros de los Mochis,False,16,3,41,10,2024-11-05,39.0,7.3,31.7
 703725,Luis Gastelum,Caneros de los Mochis,False,18,3,43,11,2024-11-06,41.9,7.0,34.9
 703725,Luis Gastelum,Caneros de los Mochis,True,19,3,48,12,2024-11-08,39.6,6.2,33.4
+703725,Luis Gastelum,Caneros de los Mochis,False,20,3,51,13,2024-11-12,39.2,5.9,33.300000000000004
 703865,Christian Crespo,Algodoneros de Guasave,False,1,2,7,1,2024-10-24,14.3,28.6,-14.3
 703865,Christian Crespo,Algodoneros de Guasave,True,2,5,16,2,2024-11-01,12.5,31.2,-18.7
 800078,Augusto Mendieta,Naranjeros de Hermosillo,False,1,2,9,1,2024-10-16,11.1,22.2,-11.1
 800078,Augusto Mendieta,Naranjeros de Hermosillo,False,3,2,14,2,2024-11-01,21.4,14.3,7.099999999999998
 800078,Augusto Mendieta,Naranjeros de Hermosillo,False,5,3,21,3,2024-11-08,23.8,14.3,9.5
+800078,Augusto Mendieta,Naranjeros de Hermosillo,True,7,3,28,4,2024-11-12,25.0,10.7,14.3
 800079,Cristian Alvarado,Charros de Jalisco,True,1,0,4,1,2024-10-12,25.0,0.0,25.0
 800079,Cristian Alvarado,Charros de Jalisco,True,2,0,8,2,2024-10-15,25.0,0.0,25.0
 800079,Cristian Alvarado,Charros de Jalisco,True,3,1,12,3,2024-10-17,25.0,8.3,16.7
@@ -1293,12 +1341,15 @@ PlayerID,FullName,Team,Home,K,BB,BF,GamesPlayed,Date,K%,BB%,K-BB%
 805678,Joe Riley,Sultanes de Monterrey,True,1,1,9,2,2024-10-30,11.1,11.1,0.0
 805678,Joe Riley,Sultanes de Monterrey,False,2,2,16,3,2024-11-02,12.5,12.5,0.0
 805678,Joe Riley,Sultanes de Monterrey,True,3,3,21,4,2024-11-10,14.3,14.3,0.0
+805678,Joe Riley,Sultanes de Monterrey,False,5,3,24,5,2024-11-12,20.8,12.5,8.3
 806317,Axel Sauceda,Tomateros de Culiacan,False,0,0,5,1,2024-10-15,0.0,0.0,0.0
 806317,Axel Sauceda,Tomateros de Culiacan,False,1,1,11,2,2024-10-30,9.1,9.1,0.0
+806317,Axel Sauceda,Tomateros de Culiacan,False,3,1,17,3,2024-11-12,17.6,5.9,11.700000000000001
 806517,Saul Arias,Naranjeros de Hermosillo,False,0,0,4,1,2024-10-12,0.0,0.0,0.0
 806517,Saul Arias,Naranjeros de Hermosillo,False,1,1,11,2,2024-10-16,9.1,9.1,0.0
 806517,Saul Arias,Naranjeros de Hermosillo,False,1,2,14,3,2024-10-25,7.1,14.3,-7.200000000000001
 806517,Saul Arias,Naranjeros de Hermosillo,False,2,3,17,4,2024-11-01,11.8,17.6,-5.800000000000001
+806517,Saul Arias,Naranjeros de Hermosillo,True,2,4,21,5,2024-11-12,9.5,19.0,-9.5
 807586,Omar Araujo,Caneros de los Mochis,True,4,2,20,1,2024-10-16,20.0,10.0,10.0
 807586,Omar Araujo,Caneros de los Mochis,True,5,4,37,2,2024-10-23,13.5,10.8,2.6999999999999993
 807586,Omar Araujo,Caneros de los Mochis,False,9,5,56,3,2024-10-29,16.1,8.9,7.200000000000001
@@ -1314,6 +1365,7 @@ PlayerID,FullName,Team,Home,K,BB,BF,GamesPlayed,Date,K%,BB%,K-BB%
 810862,Angel Lopez,Aguilas de Mexicali,True,8,1,24,7,2024-11-05,33.3,4.2,29.099999999999998
 810862,Angel Lopez,Aguilas de Mexicali,True,8,2,32,8,2024-11-07,25.0,6.2,18.8
 810862,Angel Lopez,Aguilas de Mexicali,False,9,3,37,9,2024-11-09,24.3,8.1,16.200000000000003
+810862,Angel Lopez,Aguilas de Mexicali,True,9,4,39,10,2024-11-12,23.1,10.3,12.8
 811370,Enrique Castillo,Naranjeros de Hermosillo,False,0,1,3,1,2024-10-12,0.0,33.3,-33.3
 811370,Enrique Castillo,Naranjeros de Hermosillo,True,3,1,9,2,2024-11-06,33.3,11.1,22.199999999999996
 820829,Charlie Hasty,Mayos de Navojoa,True,0,1,7,1,2024-10-12,0.0,14.3,-14.3
@@ -1328,8 +1380,10 @@ PlayerID,FullName,Team,Home,K,BB,BF,GamesPlayed,Date,K%,BB%,K-BB%
 820829,Charlie Hasty,Mayos de Navojoa,True,8,6,48,10,2024-11-03,16.7,12.5,4.199999999999999
 820829,Charlie Hasty,Mayos de Navojoa,False,9,6,51,11,2024-11-06,17.6,11.8,5.800000000000001
 820829,Charlie Hasty,Mayos de Navojoa,True,9,6,55,12,2024-11-09,16.4,10.9,5.499999999999998
+820829,Charlie Hasty,Mayos de Navojoa,True,9,8,61,13,2024-11-12,14.8,13.1,1.700000000000001
 820906,Reynaldo Alvarez,Aguilas de Mexicali,False,1,1,5,1,2024-11-09,20.0,20.0,0.0
 820906,Reynaldo Alvarez,Aguilas de Mexicali,False,1,1,10,2,2024-11-10,10.0,10.0,0.0
+820906,Reynaldo Alvarez,Aguilas de Mexicali,True,3,1,13,3,2024-11-12,23.1,7.7,15.400000000000002
 826183,Ian Medina,Algodoneros de Guasave,True,0,0,1,1,2024-10-16,0.0,0.0,0.0
 826183,Ian Medina,Algodoneros de Guasave,False,2,1,5,2,2024-10-24,40.0,20.0,20.0
 826183,Ian Medina,Algodoneros de Guasave,False,2,1,6,3,2024-10-29,33.3,16.7,16.599999999999998
