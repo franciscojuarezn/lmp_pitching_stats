@@ -617,7 +617,7 @@ elif view_selection == "Leaderboard":
         min_ip = st.slider("Min IP", min_value=0, max_value=int(max_ip), value=0)
 
     max_games = team_data_df['GS'].max()
-    ip_threshold = int((max_games-2) * 0.8)
+    ip_threshold = int((max_games) * 0.8)
 
     with col5:
         player_filter = st.radio("Player Filter", ['All Pitchers', "Qualified Pitchers"], horizontal=True)
