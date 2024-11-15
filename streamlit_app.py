@@ -464,8 +464,8 @@ elif view_selection == "Teams":
 
     st.subheader("League Averages", divider='gray')
 
-    league_avg_df.insert(2, 'FIP', 3.54)
-    league_avg_df.insert(3, 'xFIP', 3.82)
+    league_avg_df.insert(2, 'FIP', 3.50)
+    league_avg_df.insert(3, 'xFIP', 3.78)
     league_columns = ['ERA', 'WHIP', 'FIP', 'xFIP','K%', 'BB%', 'K-BB%', 'SwStr%', 'Whiff%', 'Str%', 'CSW%', 'CStr%', 'F-Strike%', 'LD%', 'GB%', 'FB%', 'PopUp%', 'HR/FB%', 'BABIP', 'AVG', 'OBP', 'SLG', 'OPS',
                       'K/9', 'BB/9', 'H/9', 'R/9', 'HR/9', 'K/BB']
     league_avg_formatted = league_avg_df[league_columns].style.format({
