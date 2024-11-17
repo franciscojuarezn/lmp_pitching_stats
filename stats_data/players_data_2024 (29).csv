@@ -275,6 +275,9 @@ id,fullName,birthDate,currentAge,height,weight,POS,Birthplace,B/T
 690909,Daniel Cruz,08-09-1999,25,"5' 9""",161.0,P,"Saltillo, Mexico",R/R
 820906,Reynaldo Alvarez,16-07-2001,23,,,P,"Havana, Cuba",R/R
 676362,Gabriel Ponce,29-04-1999,25,"6' 2""",205.0,P,"San Luis, USA",R/R
+642720,Ray-Patrick Didder,01-10-1994,30,"5' 10""",199.0,OF,"Oranjestad, Aruba",R/R
+691928,Patricio Ress,26-06-2003,21,"6' 2""",165.0,P,"San Luis Potosi, Mexico",R/R
+487019,Manuel Flores,20-02-1986,38,"6' 2""",200.0,P,"Chicxuluib, Mexico",R/R
 669214,Conner Menez,29-05-1995,29,"6' 2""",206.0,P,"Hollister, USA",L/L
 641962,CD Pelham,21-02-1995,29,"6' 6""",238.0,P,"Lancaster, USA",R/L
 519068,Efren Navarro,14-05-1986,38,"6' 0""",210.0,1B,"Lynwood, USA",L/L
@@ -305,7 +308,6 @@ id,fullName,birthDate,currentAge,height,weight,POS,Birthplace,B/T
 596105,Dwight Smith Jr.,26-10-1992,32,"6' 0""",210.0,OF,"Peachtree City, USA",L/R
 677690,Diosbel Arias,21-07-1996,28,"6' 2""",190.0,1B,"Havana, Cuba",R/R
 677977,Edgar Robles,21-08-1996,28,"6' 2""",180.0,OF,"Ciudad Obregon, Mexico",L/L
-691928,Patricio Ress,26-06-2003,21,"6' 2""",165.0,P,"San Luis Potosi, Mexico",R/R
 661309,Adrián Martínez,10-12-1996,27,"6' 2""",215.0,P,"Mexicali, Mexico",R/R
 477584,Tomas Solis,02-10-1982,42,"6' 0""",190.0,P,"Los Mochis, Mexico",L/L
 587275,Alan Espinoza,30-01-1991,33,"5' 7""",165.0,C,"Ciudad Obregon, Mexico",R/R
@@ -393,10 +395,10 @@ id,fullName,birthDate,currentAge,height,weight,POS,Birthplace,B/T
 666015,Francisco Villegas,31-08-1997,27,"6' 2""",175.0,P,"Cuauhtemoc, Mexico",L/L
 532893,Ivan Salas,30-12-1990,33,"5' 11""",155.0,P,"Navojoa, Mexico",L/L
 676203,Marcos Castañon,23-03-1999,25,"5' 10""",195.0,2B,"San Bernardino, USA",R/R
-678712,Mario Garcia,27-12-1998,25,"6' 1""",183.0,P,"Los Mochis, Mexico",R/R
-692401,Juan Salas,14-02-2003,21,"6' 0""",189.0,P,"Monterrey, Mexico",R/R
 653245,Kristian Delgado,19-07-1993,31,"5' 7""",173.0,3B,"Mexicali, Mexico",R/R
+678712,Mario Garcia,27-12-1998,25,"6' 1""",183.0,P,"Los Mochis, Mexico",R/R
 663618,Josh Stowers,25-02-1997,27,"6' 0""",200.0,OF,"Chicago, USA",R/R
+692401,Juan Salas,14-02-2003,21,"6' 0""",189.0,P,"Monterrey, Mexico",R/R
 660610,Carlos De Leon,28-06-1997,27,"6' 1""",180.0,C,"Cadereyeta Jimenez, Mexico",R/R
 689567,Hernan Yanez,04-01-1999,25,"6' 0""",200.0,C,"Mexicali, Mexico",S/R
 807586,Omar Araujo,07-02-1999,25,"6' 1""",220.0,P,"El Naranjo, Mexico",R/R
@@ -412,10 +414,13 @@ id,fullName,birthDate,currentAge,height,weight,POS,Birthplace,B/T
 700062,Andre Sanchez,05-02-2003,21,"5' 10""",140.0,P,"Cordoba, Mexico",R/R
 674496,Daniel Cornejo,15-10-1990,34,"6' 2""",203.0,OF,"Guasave, Mexico",R/R
 814188,Jayson Bass,29-04-2006,18,"5' 11""",165.0,OF,"Los Mochis, Mexico",S/R
+678296,Luis Angel Rodriguez,10-09-1999,25,"6' 1""",190.0,P,"Tierra Blanca, Mexico",L/L
+624647,Victor González,16-11-1995,29,"6' 0""",180.0,P,"Tuxpan, Mexico",L/L
 664039,Geno Encina,07-07-1994,30,"6' 4""",220.0,P,"San Antonio, USA",L/R
 600526,José Torres,24-09-1993,31,"6' 2""",175.0,P,"Caracas, Venezuela",L/L
 670328,Juan Gámez,07-03-1994,30,"5' 11""",247.0,P,"Tucson, USA",R/R
 824003,Luis Amador,15-07-2003,21,"5' 9""",190.0,C,"Los Cabos, Mexico",R/R
+607355,Logan Moore,22-08-1990,34,"6' 3""",220.0,C,"Scranton, USA",L/R
+543105,Alex Dickerson,26-05-1990,34,"6' 2""",226.0,OF,"Poway, USA",L/L
 692261,Jose Villa,05-02-2003,21,"5' 8""",176.0,IF,"Mexicali, Mexico",R/R
-829361,Reynaldo Alvarez,16-07-2001,23,,,P,"Santiago, Cuba",R/R
 662972,Manuel Valdez,18-05-1996,28,"5' 8""",176.0,P,"Mexicali, Mexico",L/L

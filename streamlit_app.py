@@ -242,7 +242,7 @@ if view_selection == 'Players':
 
         # Plot K-BB% in col4
         with col4:
-            league_avg_kbb = 9.3  # League average K-BB% is 10.5%
+            league_avg_kbb = 9.2  # League average K-BB% is 10.5%
             pitcher_data_filtered = pitchers_df[pitchers_df['FullName'] == selected_pitcher]  # Filter data for the selected pitcher
             plot_pitcher_kbb_styled(selected_pitcher, pitcher_data_filtered, league_avg_kbb)
 
@@ -464,8 +464,8 @@ elif view_selection == "Teams":
 
     st.subheader("League Averages", divider='gray')
 
-    league_avg_df.insert(2, 'FIP', 3.57)
-    league_avg_df.insert(3, 'xFIP', 3.83)
+    league_avg_df.insert(2, 'FIP', 3.54)
+    league_avg_df.insert(3, 'xFIP', 3.81)
     league_columns = ['ERA', 'WHIP', 'FIP', 'xFIP','K%', 'BB%', 'K-BB%', 'SwStr%', 'Whiff%', 'Str%', 'CSW%', 'CStr%', 'F-Strike%', 'LD%', 'GB%', 'FB%', 'PopUp%', 'HR/FB%', 'BABIP', 'AVG', 'OBP', 'SLG', 'OPS',
                       'K/9', 'BB/9', 'H/9', 'R/9', 'HR/9', 'K/BB']
     league_avg_formatted = league_avg_df[league_columns].style.format({
