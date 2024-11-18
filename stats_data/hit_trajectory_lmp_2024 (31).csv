@@ -833,6 +833,62 @@ game_id,date,trajectory,event,coordX,coordY,pitchername,pitcherid,pitcher_hand,b
 787036,2024-11-14,fly_ball,field_out,175.09,124.8,Irving Medina,691376,Right,Billy Hamilton,571740,Left,vs_RHP,vs_LHB,3,2,2,True
 787036,2024-11-14,line_drive,double,39.34,81.78,Trevor Clifton,641461,Right,Phillip Ervin,640447,Right,vs_RHP,vs_RHB,1,2,0,False
 787036,2024-11-14,ground_ball,field_out,150.24,175.1,Trevor Clifton,641461,Right,Walter Ibarra,503429,Left,vs_RHP,vs_LHB,0,0,2,True
+787037,2024-11-17,popup,field_out,142.97,139.35,Nolan Kingham,663884,Right,Ray-Patrick Didder,642720,Right,vs_RHP,vs_RHB,0,0,0,True
+787037,2024-11-17,fly_ball,field_out,182.96,101.17,Nolan Kingham,663884,Right,Wynton Bernard,592144,Right,vs_RHP,vs_RHB,1,2,2,True
+787037,2024-11-17,fly_ball,field_out,89.03,105.41,Manuel Chavez,623985,Left,Ramiro Pena,455369,Right,vs_LHP,vs_RHB,3,2,1,True
+787037,2024-11-17,ground_ball,field_out,111.45,148.44,Nolan Kingham,663884,Right,Phillip Evans,595943,Right,vs_RHP,vs_RHB,1,2,0,True
+787037,2024-11-17,popup,field_out,110.24,212.07,Nolan Kingham,663884,Right,Moises Gutierrez,605011,Left,vs_RHP,vs_LHB,2,2,1,True
+787037,2024-11-17,fly_ball,single,180.54,117.53,Manuel Chavez,623985,Left,Phillip Ervin,640447,Right,vs_LHP,vs_RHB,1,0,0,False
+787037,2024-11-17,fly_ball,double,106.0,43.6,Manuel Chavez,623985,Left,Luis Aviles Jr.,641323,Right,vs_LHP,vs_RHB,0,2,0,False
+787037,2024-11-17,fly_ball,field_out,130.85,92.08,Manuel Chavez,623985,Left,Niko Vasquez,543875,Right,vs_LHP,vs_RHB,1,0,0,True
+787037,2024-11-17,ground_ball,single,94.48,150.86,Manuel Chavez,623985,Left,Joseph Rosa,660563,Right,vs_LHP,vs_RHB,1,2,1,False
+787037,2024-11-17,fly_ball,single,92.06,119.35,Manuel Chavez,623985,Left,Juan Kirk,675202,Right,vs_LHP,vs_RHB,0,1,1,False
+787037,2024-11-17,fly_ball,sac_fly,155.69,99.35,Manuel Chavez,623985,Left,Brayan Quintero,678540,Right,vs_LHP,vs_RHB,0,1,1,True
+787037,2024-11-17,ground_ball,force_out,139.33,149.05,Manuel Chavez,623985,Left,Fabricio Macias,671246,Right,vs_LHP,vs_RHB,1,2,2,True
+787037,2024-11-17,line_drive,single,128.42,96.32,Nolan Kingham,663884,Right,Alex D. Mejia,622270,Right,vs_RHP,vs_RHB,2,1,0,False
+787037,2024-11-17,ground_ball,grounded_into_double_play,135.69,153.89,Nolan Kingham,663884,Right,Jonathan Ornelas,680716,Right,vs_RHP,vs_RHB,1,2,0,True
+787037,2024-11-17,fly_ball,field_out,138.12,70.87,Nolan Kingham,663884,Right,Alejandro Flores,642299,Left,vs_RHP,vs_LHB,0,2,2,True
+787037,2024-11-17,ground_ball,field_out,159.33,162.98,Manuel Chavez,623985,Left,Ramiro Pena,455369,Right,vs_LHP,vs_RHB,0,1,0,True
+787037,2024-11-17,fly_ball,double,111.45,38.75,Manuel Chavez,623985,Left,Phillip Ervin,640447,Right,vs_LHP,vs_RHB,1,2,2,False
+787037,2024-11-17,line_drive,single,78.12,108.44,Yamil Castillo,675132,Right,Luis Aviles Jr.,641323,Right,vs_RHP,vs_RHB,1,0,2,False
+787037,2024-11-17,line_drive,field_out,195.69,132.68,Yamil Castillo,675132,Right,Niko Vasquez,543875,Right,vs_RHP,vs_RHB,0,2,2,True
+787037,2024-11-17,ground_ball,field_out,102.36,162.98,Nolan Kingham,663884,Right,Ray-Patrick Didder,642720,Right,vs_RHP,vs_RHB,0,2,0,True
+787037,2024-11-17,ground_ball,double,215.69,123.59,Nolan Kingham,663884,Right,Leo Heras,511428,Left,vs_RHP,vs_LHB,3,2,1,False
+787037,2024-11-17,ground_ball,field_out,132.66,90.26,Nolan Kingham,663884,Right,Wynton Bernard,592144,Right,vs_RHP,vs_RHB,0,1,1,True
+787037,2024-11-17,line_drive,single,139.33,98.14,Nolan Kingham,663884,Right,Phillip Evans,595943,Right,vs_RHP,vs_RHB,2,0,2,False
+787037,2024-11-17,ground_ball,force_out,149.03,149.05,Nolan Kingham,663884,Right,Moises Gutierrez,605011,Left,vs_RHP,vs_LHB,0,0,2,True
+787037,2024-11-17,ground_ball,single,169.63,127.23,Yamil Castillo,675132,Right,Juan Kirk,675202,Right,vs_RHP,vs_RHB,0,1,0,False
+787037,2024-11-17,fly_ball,field_out,191.45,122.38,Yamil Castillo,675132,Right,Brayan Quintero,678540,Right,vs_RHP,vs_RHB,0,0,0,True
+787037,2024-11-17,ground_ball,double,42.37,114.5,Yamil Castillo,675132,Right,Fabricio Macias,671246,Right,vs_RHP,vs_RHB,0,0,1,False
+787037,2024-11-17,ground_ball,field_out,149.63,173.29,Patricio Ress,691928,Right,Ramiro Pena,455369,Left,vs_RHP,vs_LHB,2,1,1,True
+787037,2024-11-17,fly_ball,field_out,175.09,124.2,Nolan Kingham,663884,Right,Clay Dungan,687867,Left,vs_RHP,vs_LHB,0,0,0,True
+787037,2024-11-17,line_drive,single,149.03,90.26,Nolan Kingham,663884,Right,Jonathan Ornelas,680716,Right,vs_RHP,vs_RHB,0,0,2,False
+787037,2024-11-17,line_drive,field_out,126.0,74.5,Patricio Ress,691928,Right,Phillip Ervin,640447,Right,vs_RHP,vs_RHB,1,0,1,True
+787037,2024-11-17,ground_ball,field_out,102.36,173.89,Patricio Ress,691928,Right,Luis Aviles Jr.,641323,Right,vs_RHP,vs_RHB,2,2,2,True
+787037,2024-11-17,ground_ball,double,44.18,135.71,Nolan Kingham,663884,Right,Wynton Bernard,592144,Right,vs_RHP,vs_RHB,2,2,2,False
+787037,2024-11-17,line_drive,single,178.72,123.59,Nolan Kingham,663884,Right,Phillip Evans,595943,Right,vs_RHP,vs_RHB,1,1,2,True
+787037,2024-11-17,fly_ball,field_out,171.45,121.17,Jose Isidro Marquez,667904,Right,Niko Vasquez,543875,Right,vs_RHP,vs_RHB,1,0,0,True
+787037,2024-11-17,ground_ball,single,126.0,87.23,Jose Isidro Marquez,667904,Right,Juan Kirk,675202,Right,vs_RHP,vs_RHB,1,2,2,False
+787037,2024-11-17,ground_ball,single,132.06,82.99,Jose Isidro Marquez,667904,Right,Brayan Quintero,678540,Right,vs_RHP,vs_RHB,3,2,2,False
+787037,2024-11-17,line_drive,single,74.49,115.71,Nolan Kingham,663884,Right,Moises Gutierrez,605011,Left,vs_RHP,vs_LHB,2,1,0,False
+787037,2024-11-17,fly_ball,double,165.39,55.11,Nolan Kingham,663884,Right,Alex D. Mejia,622270,Right,vs_RHP,vs_RHB,0,1,0,False
+787037,2024-11-17,fly_ball,double,111.45,63.6,Erick Casillas,667918,Right,Jonathan Ornelas,680716,Right,vs_RHP,vs_RHB,3,1,0,False
+787037,2024-11-17,ground_ball,force_out,102.97,176.32,J.P. Woodward,694756,Left,Luis Santos,676021,Right,vs_LHP,vs_RHB,0,0,0,True
+787037,2024-11-17,ground_ball,single,173.87,93.29,J.P. Woodward,694756,Left,Wynton Bernard,592144,Right,vs_LHP,vs_RHB,2,1,1,False
+787037,2024-11-17,popup,field_out,90.85,193.28,J.P. Woodward,694756,Left,Phillip Evans,595943,Right,vs_LHP,vs_RHB,0,1,1,True
+787037,2024-11-17,ground_ball,single,128.42,140.56,J.P. Woodward,694756,Left,Moises Gutierrez,605011,Right,vs_LHP,vs_RHB,1,1,2,False
+787037,2024-11-17,ground_ball,field_out,147.21,155.71,J.P. Woodward,694756,Left,Clay Dungan,687867,Left,vs_LHP,vs_LHB,0,0,2,True
+787037,2024-11-17,fly_ball,single,190.84,139.35,Gabriel Ponce,676362,Right,Phillip Ervin,640447,Right,vs_RHP,vs_RHB,1,2,2,False
+787037,2024-11-17,line_drive,single,90.85,86.63,Jesus Cruz,672911,Right,Luis Aviles Jr.,641323,Right,vs_RHP,vs_RHB,0,0,2,False
+787037,2024-11-17,fly_ball,field_out,187.21,118.14,Victor Morales,802559,Right,Alex D. Mejia,622270,Right,vs_RHP,vs_RHB,1,2,0,True
+787037,2024-11-17,line_drive,single,66.0,104.2,Victor Morales,802559,Right,Jonathan Ornelas,680716,Right,vs_RHP,vs_RHB,1,0,1,False
+787037,2024-11-17,fly_ball,field_out,131.45,99.96,Jesus Cruz,672911,Right,Juan Kirk,675202,Right,vs_RHP,vs_RHB,0,1,1,True
+787037,2024-11-17,ground_ball,single,132.06,158.14,Jesus Cruz,672911,Right,Brayan Quintero,678540,Right,vs_RHP,vs_RHB,0,2,2,False
+787037,2024-11-17,fly_ball,triple,179.93,66.02,Jake Sanchez,644425,Right,Fabricio Macias,671246,Right,vs_RHP,vs_RHB,2,2,2,False
+787037,2024-11-17,ground_ball,single,175.09,124.2,Jake Sanchez,644425,Right,Ramiro Pena,455369,Left,vs_RHP,vs_LHB,1,1,2,False
+787037,2024-11-17,ground_ball,field_out,149.03,149.05,Jake Sanchez,644425,Right,Jose Gaitan,668165,Right,vs_RHP,vs_RHB,0,2,2,True
+787037,2024-11-17,ground_ball,field_out,127.21,142.38,Alexandro Tovalin,700071,Right,Conner Capel,668843,Left,vs_RHP,vs_LHB,2,2,0,True
+787037,2024-11-17,ground_ball,field_out,149.03,181.16,Alexandro Tovalin,700071,Right,Moises Gutierrez,605011,Left,vs_RHP,vs_LHB,1,0,2,True
 787040,2024-11-13,ground_ball,field_out,105.39,169.65,Pablo Tellez,701063,Right,Jack Mayfield,608686,Right,vs_RHP,vs_RHB,1,2,1,True
 787040,2024-11-13,ground_ball,field_out,159.33,159.35,Pablo Tellez,701063,Right,Tirso Ornelas,672359,Left,vs_RHP,vs_LHB,1,1,2,True
 787040,2024-11-13,ground_ball,single,66.0,114.5,Luis Ivan Rodriguez,645179,Right,Fabricio Macias,671246,Right,vs_RHP,vs_RHB,2,2,0,False
@@ -2566,6 +2622,61 @@ game_id,date,trajectory,event,coordX,coordY,pitchername,pitcherid,pitcher_hand,b
 787160,2024-11-16,ground_ball,field_out,152.22,157.39,Stephen Nogosek,668665,Right,Josh Stowers,663618,Right,vs_RHP,vs_RHB,0,1,0,True
 787160,2024-11-16,fly_ball,sac_fly,135.47,86.71,Stephen Nogosek,668665,Right,Carlos Sepulveda,661148,Left,vs_RHP,vs_LHB,0,0,1,True
 787160,2024-11-16,fly_ball,field_out,132.93,79.09,Stephen Nogosek,668665,Right,Riley Unroe,624523,Left,vs_RHP,vs_LHB,1,1,2,True
+787161,2024-11-17,line_drive,single,75.08,123.32,Edgar Torres,664475,Left,Ramon Rios,540204,Right,vs_LHP,vs_RHB,0,0,1,False
+787161,2024-11-17,ground_ball,field_out,127.86,181.8,Edgar Torres,664475,Left,Andrés Alvarez,687019,Right,vs_LHP,vs_RHB,0,2,1,True
+787161,2024-11-17,fly_ball,field_out,136.99,69.94,Victor Castaneda,674810,Right,Josh Stowers,663618,Right,vs_RHP,vs_RHB,2,1,0,True
+787161,2024-11-17,fly_ball,field_out,176.57,108.58,Victor Castaneda,674810,Right,Carlos Sepulveda,661148,Left,vs_RHP,vs_LHB,0,0,1,True
+787161,2024-11-17,fly_ball,double,200.42,91.8,Victor Castaneda,674810,Right,Donovan Casey,661541,Right,vs_RHP,vs_RHB,2,0,2,False
+787161,2024-11-17,popup,field_out,151.2,134.51,Victor Castaneda,674810,Right,Alejandro Mejia,606143,Right,vs_RHP,vs_RHB,1,0,2,True
+787161,2024-11-17,fly_ball,field_out,170.99,113.66,Edgar Torres,664475,Left,Luis Verdugo,677605,Right,vs_LHP,vs_RHB,1,0,1,True
+787161,2024-11-17,popup,field_out,139.53,162.99,Victor Castaneda,674810,Right,Fernando Villegas,679589,Right,vs_RHP,vs_RHB,1,0,0,True
+787161,2024-11-17,ground_ball,field_out,128.87,185.87,Victor Castaneda,674810,Right,Jose Guadalupe Chavez,453575,Left,vs_RHP,vs_LHB,3,2,1,True
+787161,2024-11-17,fly_ball,field_out,117.71,84.17,Edgar Torres,664475,Left,Edgar Robles,677977,Left,vs_LHP,vs_LHB,0,2,0,True
+787161,2024-11-17,ground_ball,field_out,112.63,180.78,Edgar Torres,664475,Left,Jesus Fabela,652999,Right,vs_LHP,vs_RHB,0,0,1,True
+787161,2024-11-17,fly_ball,field_out,139.53,97.9,Edgar Torres,664475,Left,Rudy Martin,657675,Left,vs_LHP,vs_LHB,2,1,2,True
+787161,2024-11-17,fly_ball,field_out,122.78,67.9,Victor Castaneda,674810,Right,Josh Stowers,663618,Right,vs_RHP,vs_RHB,0,1,2,True
+787161,2024-11-17,fly_ball,field_out,146.13,85.7,Edgar Torres,664475,Left,Ramon Rios,540204,Right,vs_LHP,vs_RHB,1,0,0,True
+787161,2024-11-17,ground_ball,single,172.51,114.17,Edgar Torres,664475,Left,Cristian Santana,655996,Right,vs_LHP,vs_RHB,0,1,2,False
+787161,2024-11-17,ground_ball,field_out,156.27,154.85,Edgar Torres,664475,Left,Dwight Smith Jr.,596105,Left,vs_LHP,vs_LHB,1,0,2,True
+787161,2024-11-17,line_drive,single,138.51,96.88,Victor Castaneda,674810,Right,Carlos Sepulveda,661148,Left,vs_RHP,vs_LHB,3,2,0,False
+787161,2024-11-17,fly_ball,field_out,135.98,85.19,Victor Castaneda,674810,Right,Donovan Casey,661541,Right,vs_RHP,vs_RHB,0,2,0,True
+787161,2024-11-17,ground_ball,single,84.72,120.78,Victor Castaneda,674810,Right,Alejandro Mejia,606143,Right,vs_RHP,vs_RHB,2,2,1,False
+787161,2024-11-17,popup,field_out,176.57,168.07,Victor Castaneda,674810,Right,Jose Guadalupe Chavez,453575,Left,vs_RHP,vs_LHB,0,0,2,True
+787161,2024-11-17,fly_ball,single,190.27,128.41,Edgar Torres,664475,Left,Luis Verdugo,677605,Right,vs_LHP,vs_RHB,1,1,0,False
+787161,2024-11-17,fly_ball,field_out,121.26,85.19,Edgar Torres,664475,Left,Poncho Ruiz,695000,Right,vs_LHP,vs_RHB,1,1,0,True
+787161,2024-11-17,ground_ball,single,175.05,114.68,Edgar Torres,664475,Left,Edgar Robles,677977,Left,vs_LHP,vs_LHB,1,0,1,False
+787161,2024-11-17,fly_ball,field_out,166.93,119.26,Edgar Torres,664475,Left,Jesus Fabela,652999,Right,vs_LHP,vs_RHB,2,2,1,True
+787161,2024-11-17,popup,field_out,89.8,185.36,Edgar Torres,664475,Left,Rudy Martin,657675,Left,vs_LHP,vs_LHB,2,2,2,True
+787161,2024-11-17,ground_ball,field_out,160.84,162.99,Victor Castaneda,674810,Right,Jose Manuel Orozco,554031,Left,vs_RHP,vs_LHB,0,1,0,True
+787161,2024-11-17,fly_ball,field_out,74.57,78.07,Victor Castaneda,674810,Right,Ricardo Valenzuela,594020,Right,vs_RHP,vs_RHB,1,0,1,True
+787161,2024-11-17,ground_ball,field_error,119.23,142.14,Victor Castaneda,674810,Right,Emmanuel Avila,500869,Left,vs_RHP,vs_LHB,0,1,2,False
+787161,2024-11-17,fly_ball,field_out,186.72,106.55,Victor Castaneda,674810,Right,Josh Stowers,663618,Right,vs_RHP,vs_RHB,0,0,2,True
+787161,2024-11-17,line_drive,single,75.08,118.75,Edgar Torres,664475,Left,Ramon Rios,540204,Right,vs_LHP,vs_RHB,1,2,0,False
+787161,2024-11-17,fly_ball,field_out,114.16,85.19,Edgar Torres,664475,Left,Andrés Alvarez,687019,Right,vs_LHP,vs_RHB,3,2,1,True
+787161,2024-11-17,ground_ball,field_out,110.6,168.07,Edgar Torres,664475,Left,Cristian Santana,655996,Right,vs_LHP,vs_RHB,0,0,2,True
+787161,2024-11-17,bunt_grounder,sac_bunt,131.41,189.94,Victor Castaneda,674810,Right,Donovan Casey,661541,Right,vs_RHP,vs_RHB,0,0,0,True
+787161,2024-11-17,fly_ball,field_out,133.95,62.31,Victor Castaneda,674810,Right,Alejandro Mejia,606143,Right,vs_RHP,vs_RHB,0,0,1,True
+787161,2024-11-17,line_drive,single,62.39,124.34,Victor Castaneda,674810,Right,Fernando Villegas,679589,Right,vs_RHP,vs_RHB,3,2,2,False
+787161,2024-11-17,fly_ball,field_out,186.22,101.46,Victor Castaneda,674810,Right,Jose Manuel Orozco,554031,Left,vs_RHP,vs_LHB,0,2,2,True
+787161,2024-11-17,ground_ball,single,140.54,176.71,Edgar Torres,664475,Left,Dwight Smith Jr.,596105,Left,vs_LHP,vs_LHB,1,1,0,False
+787161,2024-11-17,ground_ball,force_out,106.04,146.71,Edgar Torres,664475,Left,Poncho Ruiz,695000,Right,vs_LHP,vs_RHB,0,0,1,True
+787161,2024-11-17,fly_ball,single,139.02,93.83,Edgar Torres,664475,Left,Edgar Robles,677977,Left,vs_LHP,vs_LHB,0,0,2,False
+787161,2024-11-17,ground_ball,single,57.32,123.83,Edgar Torres,664475,Left,Jesus Fabela,652999,Right,vs_LHP,vs_RHB,0,1,2,False
+787161,2024-11-17,ground_ball,field_out,106.54,162.99,Edgar Torres,664475,Left,Rudy Martin,657675,Left,vs_LHP,vs_LHB,0,1,2,True
+787161,2024-11-17,ground_ball,field_out,144.6,148.75,Roel Ramírez,641995,Right,Ricardo Valenzuela,594020,Right,vs_RHP,vs_RHB,1,2,0,True
+787161,2024-11-17,line_drive,single,131.92,95.87,Efrain Contreras,678713,Right,Josh Stowers,663618,Right,vs_RHP,vs_RHB,0,0,1,False
+787161,2024-11-17,fly_ball,field_out,73.05,120.78,CD Pelham,641962,Left,Carlos Sepulveda,661148,Left,vs_LHP,vs_LHB,0,2,1,True
+787161,2024-11-17,ground_ball,force_out,108.07,148.75,CD Pelham,641962,Left,Donovan Casey,661541,Right,vs_LHP,vs_RHB,1,0,2,True
+787161,2024-11-17,line_drive,single,79.65,108.07,Alexis Vera,700063,Right,Ramon Rios,540204,Right,vs_RHP,vs_RHB,3,1,0,False
+787161,2024-11-17,ground_ball,force_out,135.98,146.21,Alexis Vera,700063,Right,Cristian Santana,655996,Right,vs_RHP,vs_RHB,0,0,1,True
+787161,2024-11-17,line_drive,double,100.96,75.53,David Gutierrez,664823,Right,Alejandro Mejia,606143,Right,vs_RHP,vs_RHB,0,2,0,False
+787161,2024-11-17,bunt_grounder,sac_bunt,130.39,193.49,David Gutierrez,664823,Right,Fernando Villegas,679589,Right,vs_RHP,vs_RHB,0,0,0,True
+787161,2024-11-17,bunt_grounder,sac_bunt,139.53,181.8,David Gutierrez,664823,Right,Jose Guadalupe Chavez,453575,Left,vs_RHP,vs_LHB,0,1,1,True
+787161,2024-11-17,ground_ball,double,50.72,114.17,David Gutierrez,664823,Right,Ricardo Valenzuela,594020,Right,vs_RHP,vs_RHB,1,1,2,True
+787161,2024-11-17,ground_ball,single,127.86,92.82,Matt Turner,676666,Left,Poncho Ruiz,695000,Right,vs_LHP,vs_RHB,3,2,0,False
+787161,2024-11-17,bunt_grounder,fielders_choice,121.77,193.49,Matt Turner,676666,Left,Edgar Robles,677977,Left,vs_LHP,vs_LHB,0,0,0,False
+787161,2024-11-17,ground_ball,field_out,113.14,185.36,Matt Turner,676666,Left,Jesus Fabela,652999,Right,vs_LHP,vs_RHB,3,2,0,True
+787161,2024-11-17,fly_ball,field_out,134.45,81.12,Matt Turner,676666,Left,Ramon Rios,540204,Right,vs_LHP,vs_RHB,0,1,2,True
 787162,2024-10-30,line_drive,field_out,155.26,155.21,Noah Bremer,676084,Right,Roel Santos,661270,Left,vs_RHP,vs_LHB,0,0,0,True
 787162,2024-10-30,ground_ball,single,136.99,139.45,Noah Bremer,676084,Right,Isaac Rodriguez,665455,Right,vs_RHP,vs_RHB,2,2,1,False
 787162,2024-10-30,ground_ball,force_out,152.21,155.21,Noah Bremer,676084,Right,Eric Filia,596107,Left,vs_RHP,vs_LHB,0,0,1,True
@@ -4902,7 +5013,7 @@ game_id,date,trajectory,event,coordX,coordY,pitchername,pitcherid,pitcher_hand,b
 787259,2024-11-16,ground_ball,field_out,108.57,169.6,Alemao Hernandez,672598,Left,Jose Carlos Urena,614182,Right,vs_LHP,vs_RHB,3,2,1,True
 787259,2024-11-16,line_drive,single,134.45,78.07,Alemao Hernandez,672598,Left,Juan Carlos Gamboa,585251,Left,vs_LHP,vs_LHB,2,2,2,True
 787259,2024-11-16,ground_ball,field_out,108.57,170.1,Fernando Sanchez,685719,Left,Mateo Gil,680771,Right,vs_LHP,vs_RHB,1,1,2,True
-787259,2024-11-16,ground_ball,field_error,103.5,166.55,Alemao Hernandez,672598,Left,Gabriel Gutierrez,468368,Right,vs_LHP,vs_RHB,1,1,0,False
+787259,2024-11-16,ground_ball,single,103.5,166.55,Alemao Hernandez,672598,Left,Gabriel Gutierrez,468368,Right,vs_LHP,vs_RHB,1,1,0,False
 787259,2024-11-16,bunt_grounder,single,127.86,192.48,Alemao Hernandez,672598,Left,Greg Allen,656185,Right,vs_LHP,vs_RHB,0,0,0,False
 787259,2024-11-16,bunt_grounder,sac_bunt,126.33,197.56,Alemao Hernandez,672598,Left,Allen Córdoba,642707,Right,vs_LHP,vs_RHB,0,0,0,True
 787259,2024-11-16,fly_ball,field_out,176.07,86.71,Alemao Hernandez,672598,Left,Victor Mendoza,628013,Left,vs_LHP,vs_LHB,2,1,1,True
@@ -4936,6 +5047,60 @@ game_id,date,trajectory,event,coordX,coordY,pitchername,pitcherid,pitcher_hand,b
 787259,2024-11-16,line_drive,home_run,59.86,76.55,Samuel Zazueta,650980,Left,Michael Wielansky,681933,Right,vs_LHP,vs_RHB,2,2,2,False
 787259,2024-11-16,line_drive,single,90.81,93.83,Samuel Zazueta,650980,Left,Jose Aguilar,591572,Right,vs_LHP,vs_RHB,0,0,2,False
 787259,2024-11-16,ground_ball,force_out,107.56,155.36,Samuel Zazueta,650980,Left,Billy Hamilton,571740,Right,vs_LHP,vs_RHB,1,1,2,True
+787261,2024-11-17,ground_ball,field_out,108.07,171.63,Julio Teheran,527054,Right,Allen Córdoba,642707,Right,vs_RHP,vs_RHB,0,1,1,True
+787261,2024-11-17,line_drive,single,73.56,111.12,Orlando Lara,455359,Left,Jack Mayfield,608686,Right,vs_LHP,vs_RHB,0,0,1,False
+787261,2024-11-17,ground_ball,force_out,147.14,156.38,Orlando Lara,455359,Left,Tirso Ornelas,672359,Left,vs_LHP,vs_LHB,1,1,1,True
+787261,2024-11-17,fly_ball,home_run,33.98,79.09,Orlando Lara,455359,Left,Reynaldo Rodriguez,471906,Right,vs_LHP,vs_RHB,1,1,2,False
+787261,2024-11-17,ground_ball,field_out,116.19,149.77,Orlando Lara,455359,Left,Mateo Gil,680771,Right,vs_LHP,vs_RHB,0,1,2,True
+787261,2024-11-17,fly_ball,field_out,177.59,94.34,Julio Teheran,527054,Right,Dustin Peterson,640460,Right,vs_RHP,vs_RHB,3,2,0,True
+787261,2024-11-17,ground_ball,field_out,107.56,157.9,Julio Teheran,527054,Right,Roberto Valenzuela,672438,Right,vs_RHP,vs_RHB,3,2,2,True
+787261,2024-11-17,ground_ball,single,98.93,151.8,Orlando Lara,455359,Left,Michael Wielansky,681933,Right,vs_LHP,vs_RHB,2,0,1,False
+787261,2024-11-17,ground_ball,field_error,154.75,159.94,Orlando Lara,455359,Left,Alfredo Hurtado,685771,Right,vs_LHP,vs_RHB,0,1,1,False
+787261,2024-11-17,fly_ball,home_run,156.27,21.63,Julio Teheran,527054,Right,Jose Carlos Urena,614182,Right,vs_RHP,vs_RHB,3,2,0,False
+787261,2024-11-17,ground_ball,single,138.01,192.99,Julio Teheran,527054,Right,Santiago Chávez,622700,Right,vs_RHP,vs_RHB,0,0,0,False
+787261,2024-11-17,bunt_grounder,sac_bunt,126.84,195.53,Julio Teheran,527054,Right,Greg Allen,656185,Left,vs_RHP,vs_LHB,0,1,0,False
+787261,2024-11-17,ground_ball,double_play,103.5,174.68,Julio Teheran,527054,Right,Allen Córdoba,642707,Right,vs_RHP,vs_RHB,1,1,0,True
+787261,2024-11-17,popup,field_out,133.44,114.68,Julio Teheran,527054,Right,Victor Mendoza,628013,Left,vs_RHP,vs_LHB,0,0,2,True
+787261,2024-11-17,ground_ball,field_out,99.95,164.0,Orlando Lara,455359,Left,Jack Mayfield,608686,Right,vs_LHP,vs_RHB,1,2,0,True
+787261,2024-11-17,ground_ball,field_out,144.6,156.38,Orlando Lara,455359,Left,Tirso Ornelas,672359,Left,vs_LHP,vs_LHB,0,2,1,True
+787261,2024-11-17,fly_ball,field_out,80.16,114.17,Julio Teheran,527054,Right,Dustin Peterson,640460,Right,vs_RHP,vs_RHB,0,0,0,True
+787261,2024-11-17,ground_ball,field_out,159.83,165.53,Julio Teheran,527054,Right,Kennys Vargas,573627,Left,vs_RHP,vs_LHB,0,2,1,True
+787261,2024-11-17,fly_ball,field_out,135.98,76.55,Julio Teheran,527054,Right,Roberto Valenzuela,672438,Right,vs_RHP,vs_RHB,1,1,2,True
+787261,2024-11-17,ground_ball,field_out,127.86,182.31,Orlando Lara,455359,Left,Mateo Gil,680771,Right,vs_LHP,vs_RHB,2,1,0,True
+787261,2024-11-17,line_drive,single,156.27,92.82,Orlando Lara,455359,Left,Japhet Amador,515189,Right,vs_LHP,vs_RHB,1,2,1,False
+787261,2024-11-17,fly_ball,double,77.62,62.31,Orlando Lara,455359,Left,Michael Wielansky,681933,Right,vs_LHP,vs_RHB,1,0,1,False
+787261,2024-11-17,ground_ball,single,98.42,153.83,Orlando Lara,455359,Left,Alfredo Hurtado,685771,Right,vs_LHP,vs_RHB,1,2,1,False
+787261,2024-11-17,fly_ball,field_out,118.22,80.61,Orlando Lara,455359,Left,Jose Aguilar,591572,Right,vs_LHP,vs_RHB,3,1,2,True
+787261,2024-11-17,fly_ball,single,85.23,99.43,Julio Teheran,527054,Right,Jose Carlos Urena,614182,Right,vs_RHP,vs_RHB,3,2,0,False
+787261,2024-11-17,ground_ball,double,198.9,128.41,Julio Teheran,527054,Right,Juan Carlos Gamboa,585251,Left,vs_RHP,vs_LHB,0,1,0,False
+787261,2024-11-17,fly_ball,sac_fly,182.16,113.66,Julio Teheran,527054,Right,Greg Allen,656185,Left,vs_RHP,vs_LHB,3,2,1,True
+787261,2024-11-17,ground_ball,single,97.41,154.34,Julio Teheran,527054,Right,Allen Córdoba,642707,Right,vs_RHP,vs_RHB,0,0,2,False
+787261,2024-11-17,fly_ball,field_out,128.36,85.7,Orlando Lara,455359,Left,Billy Hamilton,571740,Right,vs_LHP,vs_RHB,1,1,0,True
+787261,2024-11-17,ground_ball,force_out,144.1,151.29,Daniel De La Fuente,675880,Right,Tirso Ornelas,672359,Left,vs_RHP,vs_LHB,0,1,1,True
+787261,2024-11-17,popup,field_out,146.63,152.31,Daniel De La Fuente,675880,Right,Reynaldo Rodriguez,471906,Right,vs_RHP,vs_RHB,0,0,2,True
+787261,2024-11-17,fly_ball,field_out,105.02,60.78,Jared Wilson,623441,Right,Kennys Vargas,573627,Left,vs_RHP,vs_LHB,1,1,1,True
+787261,2024-11-17,fly_ball,field_out,82.69,67.39,Jared Wilson,623441,Right,Roberto Valenzuela,672438,Right,vs_RHP,vs_RHB,2,0,2,True
+787261,2024-11-17,fly_ball,field_out,182.16,108.58,Daniel De La Fuente,675880,Right,Mateo Gil,680771,Right,vs_RHP,vs_RHB,2,1,0,True
+787261,2024-11-17,fly_ball,field_out,141.05,47.05,Daniel De La Fuente,675880,Right,Michael Wielansky,681933,Right,vs_RHP,vs_RHB,1,1,2,True
+787261,2024-11-17,fly_ball,field_out,85.74,95.36,Jared Wilson,623441,Right,Jose Carlos Urena,614182,Right,vs_RHP,vs_RHB,3,1,0,True
+787261,2024-11-17,ground_ball,field_out,159.83,168.07,Victor González,624647,Left,Juan Carlos Gamboa,585251,Left,vs_LHP,vs_LHB,1,0,1,True
+787261,2024-11-17,popup,field_out,160.84,189.94,Victor González,624647,Left,Santiago Chávez,622700,Right,vs_LHP,vs_RHB,2,1,2,True
+787261,2024-11-17,ground_ball,field_out,108.57,153.83,Edwin Fierro,616623,Right,Jose Aguilar,591572,Right,vs_RHP,vs_RHB,3,2,1,True
+787261,2024-11-17,ground_ball,field_out,141.05,150.27,Edwin Fierro,616623,Right,Billy Hamilton,571740,Left,vs_RHP,vs_LHB,0,0,2,True
+787261,2024-11-17,bunt_grounder,sac_bunt,130.9,187.39,Mario Meza,616405,Right,Allen Córdoba,642707,Right,vs_RHP,vs_RHB,0,0,0,True
+787261,2024-11-17,ground_ball,single,73.05,113.66,Mario Meza,616405,Right,Victor Mendoza,628013,Left,vs_RHP,vs_LHB,1,2,1,False
+787261,2024-11-17,ground_ball,field_error,132.93,145.19,Mario Meza,616405,Right,Kennys Vargas,573627,Left,vs_RHP,vs_LHB,0,1,2,False
+787261,2024-11-17,ground_ball,field_out,112.63,170.1,Mario Meza,616405,Right,Roberto Valenzuela,672438,Right,vs_RHP,vs_RHB,3,2,2,True
+787261,2024-11-17,ground_ball,single,191.8,108.07,Felipe Gonzalez,542413,Right,Tirso Ornelas,672359,Left,vs_RHP,vs_LHB,1,0,1,False
+787261,2024-11-17,fly_ball,single,191.29,113.16,Felipe Gonzalez,542413,Right,Reynaldo Rodriguez,471906,Right,vs_RHP,vs_RHB,1,2,1,False
+787261,2024-11-17,ground_ball,grounded_into_double_play,108.57,154.85,Felipe Gonzalez,542413,Right,Japhet Amador,515189,Right,vs_RHP,vs_RHB,2,1,1,True
+787261,2024-11-17,line_drive,double,112.63,60.78,Trevor Clifton,641461,Right,Jose Carlos Urena,614182,Right,vs_RHP,vs_RHB,0,1,0,False
+787261,2024-11-17,bunt_grounder,sac_bunt,118.22,192.99,Trevor Clifton,641461,Right,Juan Carlos Gamboa,585251,Left,vs_RHP,vs_LHB,1,0,0,True
+787261,2024-11-17,ground_ball,field_out,139.53,148.75,Trevor Clifton,641461,Right,Greg Allen,656185,Left,vs_RHP,vs_LHB,1,0,2,True
+787261,2024-11-17,ground_ball,single,62.39,104.51,Samuel Zazueta,650980,Left,Michael Wielansky,681933,Right,vs_LHP,vs_RHB,1,0,0,False
+787261,2024-11-17,bunt_grounder,sac_bunt,121.77,187.9,Samuel Zazueta,650980,Left,Alfredo Hurtado,685771,Right,vs_LHP,vs_RHB,0,0,0,True
+787261,2024-11-17,fly_ball,field_out,64.93,128.92,Samuel Zazueta,650980,Left,Jose Aguilar,591572,Right,vs_LHP,vs_RHB,3,1,1,True
+787261,2024-11-17,popup,field_out,134.45,179.77,Samuel Zazueta,650980,Left,Billy Hamilton,571740,Right,vs_LHP,vs_RHB,2,0,2,True
 787264,2024-11-07,fly_ball,field_out,150.69,77.56,Luis Ivan Rodriguez,645179,Right,Brandon Villarreal,661311,Right,vs_RHP,vs_RHB,0,1,0,True
 787264,2024-11-07,fly_ball,triple,153.74,48.58,Luis Ivan Rodriguez,645179,Right,Emmanuel Avila,500869,Left,vs_RHP,vs_LHB,2,2,1,False
 787264,2024-11-07,ground_ball,single,173.53,91.8,Luis Ivan Rodriguez,645179,Right,Donovan Casey,661541,Right,vs_RHP,vs_RHB,0,0,1,False
@@ -5748,6 +5913,51 @@ game_id,date,trajectory,event,coordX,coordY,pitchername,pitcherid,pitcher_hand,b
 787278,2024-10-17,ground_ball,single,128.36,146.21,Dario Gardea,677915,Right,Jasson Atondo,662962,Right,vs_RHP,vs_RHB,1,1,0,False
 787278,2024-10-17,fly_ball,single,65.44,109.09,Dario Gardea,677915,Right,Angel Camacho,803376,Right,vs_RHP,vs_RHB,2,0,1,False
 787278,2024-10-17,fly_ball,field_out,93.35,91.8,Trevor Clifton,641461,Right,Agustin Murillo,473242,Right,vs_RHP,vs_RHB,1,1,2,True
+787292,2024-11-17,fly_ball,field_out,177.29,101.42,Ronald Bolaños,671790,Right,Matt McDermott,694942,Right,vs_RHP,vs_RHB,0,0,0,True
+787292,2024-11-17,ground_ball,field_out,156.11,145.59,Ronald Bolaños,671790,Right,Missael Rivera,668992,Left,vs_RHP,vs_LHB,1,2,1,True
+787292,2024-11-17,line_drive,field_out,80.47,119.57,Damian Mendoza,677604,Right,Marco Jaime,668616,Left,vs_RHP,vs_LHB,0,1,0,True
+787292,2024-11-17,ground_ball,single,184.56,114.13,Damian Mendoza,677604,Right,Eric Filia,596107,Left,vs_RHP,vs_LHB,3,2,2,False
+787292,2024-11-17,ground_ball,single,181.53,114.73,Damian Mendoza,677604,Right,Kyle Martin,657674,Left,vs_RHP,vs_LHB,1,1,2,False
+787292,2024-11-17,ground_ball,force_out,103.47,147.41,Damian Mendoza,677604,Right,Justin Dean,681909,Right,vs_RHP,vs_RHB,2,1,2,True
+787292,2024-11-17,ground_ball,field_out,153.69,147.41,Ronald Bolaños,671790,Right,Bobby Bradley,656252,Left,vs_RHP,vs_LHB,1,0,0,True
+787292,2024-11-17,fly_ball,field_out,76.24,111.1,Ronald Bolaños,671790,Right,Agustin Ruiz,672361,Left,vs_RHP,vs_LHB,2,0,1,True
+787292,2024-11-17,ground_ball,force_out,110.13,171.61,Ronald Bolaños,671790,Right,Miguel Guzman,634739,Right,vs_RHP,vs_RHB,1,0,2,True
+787292,2024-11-17,ground_ball,field_out,160.96,163.75,Damian Mendoza,677604,Right,Rodolfo Amador,616613,Left,vs_RHP,vs_LHB,2,2,0,True
+787292,2024-11-17,ground_ball,field_out,156.11,164.35,Damian Mendoza,677604,Right,Logan Moore,607355,Left,vs_RHP,vs_LHB,2,1,2,True
+787292,2024-11-17,ground_ball,single,82.29,94.16,Ronald Bolaños,671790,Right,Ramon Mendoza,680636,Right,vs_RHP,vs_RHB,2,1,0,False
+787292,2024-11-17,bunt_grounder,sac_bunt,127.07,190.98,Ronald Bolaños,671790,Right,Juan Uriarte,660842,Right,vs_RHP,vs_RHB,0,0,0,True
+787292,2024-11-17,ground_ball,field_out,154.3,164.35,Ronald Bolaños,671790,Right,Matt McDermott,694942,Right,vs_RHP,vs_RHB,2,0,1,True
+787292,2024-11-17,ground_ball,field_out,152.48,144.38,Damian Mendoza,677604,Right,Marco Jaime,668616,Left,vs_RHP,vs_LHB,0,2,1,True
+787292,2024-11-17,line_drive,single,73.21,114.73,Damian Mendoza,677604,Right,Isaac Rodriguez,665455,Right,vs_RHP,vs_RHB,0,0,2,False
+787292,2024-11-17,line_drive,double,69.58,115.94,Damian Mendoza,677604,Right,Eric Filia,596107,Left,vs_RHP,vs_LHB,1,1,2,False
+787292,2024-11-17,line_drive,double,190.61,116.55,Damian Mendoza,677604,Right,Kyle Martin,657674,Left,vs_RHP,vs_LHB,0,0,2,False
+787292,2024-11-17,ground_ball,field_out,105.28,154.67,Damian Mendoza,677604,Right,Justin Dean,681909,Right,vs_RHP,vs_RHB,0,0,2,True
+787292,2024-11-17,ground_ball,field_out,110.13,156.49,Ronald Bolaños,671790,Right,Joe Stewart,680396,Right,vs_RHP,vs_RHB,2,2,0,True
+787292,2024-11-17,fly_ball,field_out,101.65,68.74,Ronald Bolaños,671790,Right,Agustin Ruiz,672361,Left,vs_RHP,vs_LHB,2,1,2,True
+787292,2024-11-17,ground_ball,field_out,105.89,152.25,Ronald Bolaños,671790,Right,Miguel Guzman,634739,Right,vs_RHP,vs_RHB,2,1,0,True
+787292,2024-11-17,ground_ball,single,180.32,118.97,Ronald Bolaños,671790,Right,Ramon Mendoza,680636,Right,vs_RHP,vs_RHB,1,1,1,False
+787292,2024-11-17,popup,field_out,150.06,149.83,Ronald Bolaños,671790,Right,Juan Uriarte,660842,Right,vs_RHP,vs_RHB,0,1,1,True
+787292,2024-11-17,ground_ball,field_out,105.89,150.43,Damian Mendoza,677604,Right,Brayan Mendoza,696535,Left,vs_RHP,vs_LHB,2,1,0,True
+787292,2024-11-17,ground_ball,field_out,108.31,152.25,Damian Mendoza,677604,Right,Eric Filia,596107,Left,vs_RHP,vs_LHB,2,1,2,True
+787292,2024-11-17,line_drive,double,47.19,101.42,Ronald Bolaños,671790,Right,Matt McDermott,694942,Right,vs_RHP,vs_RHB,1,1,0,False
+787292,2024-11-17,ground_ball,force_out,120.41,144.38,Ronald Bolaños,671790,Right,Asael Sanchez,661313,Right,vs_RHP,vs_RHB,1,0,2,True
+787292,2024-11-17,line_drive,field_out,73.21,86.9,Jonathan Partida,674476,Left,Kyle Martin,657674,Left,vs_LHP,vs_LHB,1,0,0,True
+787292,2024-11-17,fly_ball,field_out,104.68,88.71,Jonathan Partida,674476,Left,Rodolfo Amador,616613,Left,vs_LHP,vs_LHB,0,2,2,True
+787292,2024-11-17,ground_ball,field_out,154.9,157.7,Adrian Hernandez,681753,Right,Agustin Ruiz,672361,Left,vs_RHP,vs_LHB,2,2,0,True
+787292,2024-11-17,ground_ball,field_out,105.89,155.28,Adrian Hernandez,681753,Right,Miguel Guzman,634739,Right,vs_RHP,vs_RHB,1,2,1,True
+787292,2024-11-17,ground_ball,field_out,111.34,152.85,Adrian Hernandez,681753,Right,Ramon Mendoza,680636,Right,vs_RHP,vs_RHB,0,0,2,True
+787292,2024-11-17,line_drive,single,197.87,92.95,Francisco Haro,662964,Right,Logan Moore,607355,Left,vs_RHP,vs_LHB,2,2,1,False
+787292,2024-11-17,fly_ball,single,96.21,114.73,Francisco Haro,662964,Right,Brayan Mendoza,696535,Left,vs_RHP,vs_LHB,0,0,1,False
+787292,2024-11-17,line_drive,single,103.47,115.94,Francisco Haro,662964,Right,Marco Jaime,668616,Left,vs_RHP,vs_LHB,0,0,1,False
+787292,2024-11-17,ground_ball,force_out,111.34,173.43,Francisco Haro,662964,Right,Isaac Rodriguez,665455,Right,vs_RHP,vs_RHB,2,2,1,True
+787292,2024-11-17,ground_ball,field_out,154.3,161.93,Daniel Zazueta,802568,Left,Eric Filia,596107,Left,vs_LHP,vs_LHB,3,2,2,True
+787292,2024-11-17,ground_ball,field_out,110.73,166.17,Luis Gastelum,703725,Right,Juan Uriarte,660842,Right,vs_RHP,vs_RHB,0,1,0,True
+787292,2024-11-17,popup,field_out,160.35,135.31,Luis Gastelum,703725,Right,Missael Rivera,668992,Left,vs_RHP,vs_LHB,2,2,2,True
+787292,2024-11-17,popup,field_out,150.67,171.01,Carlos Bustamante,619854,Right,Kyle Martin,657674,Left,vs_RHP,vs_LHB,0,0,0,True
+787292,2024-11-17,ground_ball,field_out,112.55,183.72,Carlos Bustamante,619854,Right,Justin Dean,681909,Right,vs_RHP,vs_RHB,1,0,1,True
+787292,2024-11-17,fly_ball,field_out,75.03,109.29,Carlos Bustamante,619854,Right,Rodolfo Amador,616613,Left,vs_RHP,vs_LHB,0,1,2,True
+787292,2024-11-17,ground_ball,field_out,108.92,154.67,Juan Gámez,670328,Right,Joe Stewart,680396,Right,vs_RHP,vs_RHB,2,0,0,True
+787292,2024-11-17,ground_ball,field_out,160.96,153.46,Juan Gámez,670328,Right,Bobby Bradley,656252,Left,vs_RHP,vs_LHB,0,0,1,True
 787294,2024-11-15,line_drive,triple,177.9,70.56,Omar Araujo,807586,Right,Matt McDermott,694942,Right,vs_RHP,vs_RHB,1,1,0,False
 787294,2024-11-15,line_drive,single,128.88,100.21,Omar Araujo,807586,Right,Missael Rivera,668992,Left,vs_RHP,vs_LHB,2,1,0,False
 787294,2024-11-15,ground_ball,force_out,113.15,167.98,Omar Araujo,807586,Right,Joe Stewart,680396,Right,vs_RHP,vs_RHB,0,1,0,True
@@ -6494,6 +6704,50 @@ game_id,date,trajectory,event,coordX,coordY,pitchername,pitcherid,pitcher_hand,b
 787312,2024-10-13,ground_ball,field_out,150.06,151.04,Fabian Cota,601978,Left,Missael Rivera,668992,Left,vs_LHP,vs_LHB,1,1,2,True
 787312,2024-10-13,ground_ball,field_out,146.43,170.4,Francisco Haro,662964,Right,Marco Jaime,668616,Left,vs_RHP,vs_LHB,2,0,0,True
 787312,2024-10-13,fly_ball,home_run,221.47,50.59,Francisco Haro,662964,Right,Roel Santos,661270,Left,vs_RHP,vs_LHB,1,1,1,False
+787330,2024-11-17,fly_ball,field_out,189.65,134.76,Grant Gavin,667050,Right,Jose Cardona,606580,Right,vs_RHP,vs_RHB,3,2,0,True
+787330,2024-11-17,popup,field_out,108.54,154.53,Grant Gavin,667050,Right,Agustin Murillo,473242,Right,vs_RHP,vs_RHB,0,0,1,True
+787330,2024-11-17,fly_ball,field_out,88.26,88.63,Grant Gavin,667050,Right,Alfonso Rivas III,663845,Left,vs_RHP,vs_LHB,1,0,2,True
+787330,2024-11-17,line_drive,single,85.22,109.41,Alan Rangel,660604,Right,Jorge Flores,592312,Right,vs_RHP,vs_RHB,1,1,1,False
+787330,2024-11-17,line_drive,field_out,111.58,77.47,Grant Gavin,667050,Right,Willie Calhoun,641432,Left,vs_RHP,vs_LHB,0,0,1,True
+787330,2024-11-17,ground_ball,field_out,116.14,143.88,Alan Rangel,660604,Right,Justin Wylie,687045,Right,vs_RHP,vs_RHB,1,0,0,True
+787330,2024-11-17,line_drive,double,205.37,111.44,Alan Rangel,660604,Right,Jesse Castillo,477399,Left,vs_RHP,vs_LHB,1,2,1,False
+787330,2024-11-17,fly_ball,double,49.74,81.02,Alan Rangel,660604,Right,Alexis Wilson,656029,Right,vs_RHP,vs_RHB,0,1,1,False
+787330,2024-11-17,ground_ball,field_out,151.63,157.06,Alan Rangel,660604,Right,Francisco Hernandez,674504,Left,vs_RHP,vs_LHB,2,2,1,True
+787330,2024-11-17,ground_ball,field_out,120.71,147.94,Alan Rangel,660604,Right,Angel Erro,652669,Right,vs_RHP,vs_RHB,1,1,2,True
+787330,2024-11-17,line_drive,field_out,185.09,81.02,Grant Gavin,667050,Right,Jasson Atondo,662962,Right,vs_RHP,vs_RHB,2,1,0,True
+787330,2024-11-17,line_drive,single,81.67,116.0,Grant Gavin,667050,Right,Irving Lopez,676761,Left,vs_RHP,vs_LHB,2,2,1,False
+787330,2024-11-17,popup,field_out,122.23,207.76,Grant Gavin,667050,Right,Jose Cardona,606580,Right,vs_RHP,vs_RHB,0,1,1,True
+787330,2024-11-17,ground_ball,field_out,102.96,161.12,Grant Gavin,667050,Right,Agustin Murillo,473242,Right,vs_RHP,vs_RHB,3,2,2,True
+787330,2024-11-17,line_drive,double,35.54,97.75,Alan Rangel,660604,Right,Jorge Flores,592312,Right,vs_RHP,vs_RHB,1,1,2,False
+787330,2024-11-17,line_drive,field_out,79.14,108.4,Grant Gavin,667050,Right,Alfonso Rivas III,663845,Left,vs_RHP,vs_LHB,1,2,0,True
+787330,2024-11-17,ground_ball,field_out,159.74,162.64,Grant Gavin,667050,Right,Brandon Valenzuela,678218,Left,vs_RHP,vs_LHB,2,2,1,True
+787330,2024-11-17,ground_ball,field_out,152.64,159.6,Grant Gavin,667050,Right,Alex Dickerson,543105,Left,vs_RHP,vs_LHB,0,2,2,True
+787330,2024-11-17,line_drive,double,76.1,113.47,Alan Rangel,660604,Right,Alexis Wilson,656029,Right,vs_RHP,vs_RHB,2,2,0,False
+787330,2024-11-17,ground_ball,force_out,103.98,161.62,Alan Rangel,660604,Right,Angel Erro,652669,Right,vs_RHP,vs_RHB,2,1,0,True
+787330,2024-11-17,line_drive,single,179.51,120.56,Ozzie Mendez,510552,Left,Victor Labrada,700032,Left,vs_LHP,vs_LHB,0,1,1,False
+787330,2024-11-17,ground_ball,force_out,137.94,144.9,Ozzie Mendez,510552,Left,Roberto Ramos,657733,Left,vs_LHP,vs_LHB,2,0,2,True
+787330,2024-11-17,line_drive,field_out,120.2,90.15,Grant Gavin,667050,Right,Willie Calhoun,641432,Left,vs_RHP,vs_LHB,2,2,0,True
+787330,2024-11-17,ground_ball,field_out,151.63,154.53,Grant Gavin,667050,Right,Reivaj Garcia,678706,Left,vs_RHP,vs_LHB,3,1,1,True
+787330,2024-11-17,fly_ball,field_out,180.02,90.65,Grant Gavin,667050,Right,Jasson Atondo,662962,Right,vs_RHP,vs_RHB,1,1,2,True
+787330,2024-11-17,popup,field_out,98.4,159.09,Raul Barron,502515,Right,Jesse Castillo,477399,Left,vs_RHP,vs_LHB,2,2,0,True
+787330,2024-11-17,ground_ball,field_out,123.24,164.16,Raul Barron,502515,Right,Alexis Wilson,656029,Right,vs_RHP,vs_RHB,0,0,1,True
+787330,2024-11-17,popup,field_out,87.76,132.73,Raul Barron,502515,Right,Francisco Hernandez,674504,Left,vs_RHP,vs_LHB,2,0,2,True
+787330,2024-11-17,fly_ball,field_out,198.78,112.45,Grant Gavin,667050,Right,Irving Lopez,676761,Left,vs_RHP,vs_LHB,1,0,0,True
+787330,2024-11-17,ground_ball,single,90.8,171.26,Grant Gavin,667050,Right,Jose Cardona,606580,Right,vs_RHP,vs_RHB,3,2,1,False
+787330,2024-11-17,ground_ball,grounded_into_double_play,108.54,152.5,Grant Gavin,667050,Right,Agustin Murillo,473242,Right,vs_RHP,vs_RHB,1,1,1,True
+787330,2024-11-17,popup,field_out,79.14,149.96,A.J. Puckett,643494,Right,Victor Labrada,700032,Left,vs_RHP,vs_LHB,2,1,0,True
+787330,2024-11-17,line_drive,single,179.51,110.42,A.J. Puckett,643494,Right,Jorge Flores,592312,Right,vs_RHP,vs_RHB,0,1,2,False
+787330,2024-11-17,popup,field_out,96.37,169.23,Rafael Cordova,622742,Right,Alex Dickerson,543105,Left,vs_RHP,vs_LHB,0,0,1,True
+787330,2024-11-17,ground_ball,field_out,113.61,154.53,Rafael Cordova,622742,Right,Willie Calhoun,641432,Left,vs_RHP,vs_LHB,2,1,2,True
+787330,2024-11-17,fly_ball,field_out,168.36,86.6,A.J. Puckett,643494,Right,Jesse Castillo,477399,Left,vs_RHP,vs_LHB,0,1,0,True
+787330,2024-11-17,ground_ball,field_out,133.89,147.94,A.J. Puckett,643494,Right,Francisco Hernandez,674504,Left,vs_RHP,vs_LHB,1,0,2,True
+787330,2024-11-17,popup,field_out,115.13,148.95,Peyton Gray,682608,Right,Reivaj Garcia,678706,Left,vs_RHP,vs_LHB,0,2,0,True
+787330,2024-11-17,line_drive,single,168.36,99.27,Peyton Gray,682608,Right,Jasson Atondo,662962,Right,vs_RHP,vs_RHB,1,1,1,False
+787330,2024-11-17,ground_ball,field_out,105.5,162.64,Fernando Salas,477569,Right,Angel Erro,652669,Right,vs_RHP,vs_RHB,1,0,0,True
+787330,2024-11-17,line_drive,single,170.39,112.96,Fernando Salas,477569,Right,Drew Avans,682183,Left,vs_RHP,vs_LHB,0,0,1,False
+787330,2024-11-17,line_drive,single,129.83,93.19,Fernando Salas,477569,Right,Jorge Flores,592312,Right,vs_RHP,vs_RHB,0,1,1,False
+787330,2024-11-17,ground_ball,field_out,104.99,164.16,Fabian Anguamea,642856,Right,Dylan Jasso,815734,Right,vs_RHP,vs_RHB,0,0,0,True
+787330,2024-11-17,ground_ball,field_out,149.6,164.16,Fabian Anguamea,642856,Right,Alfonso Rivas III,663845,Left,vs_RHP,vs_LHB,2,1,1,True
 787331,2024-11-15,line_drive,triple,83.27,58.72,Ariel Gracia,622739,Left,Jose Cardona,606580,Right,vs_LHP,vs_RHB,2,2,0,False
 787331,2024-11-15,line_drive,double,72.12,68.35,Ariel Gracia,622739,Left,Brandon Valenzuela,678218,Right,vs_LHP,vs_RHB,1,0,0,False
 787331,2024-11-15,ground_ball,field_out,110.65,162.64,Ariel Gracia,622739,Left,Nicholas Torres,657051,Right,vs_LHP,vs_RHB,2,2,0,True
