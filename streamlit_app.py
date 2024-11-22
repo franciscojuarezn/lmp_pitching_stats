@@ -452,7 +452,7 @@ elif view_selection == "Teams":
     # Create a layout with columns for title and dataframes
     col1, col2, col3, col4 = st.columns([2,2,2,2])
 
-    # Add titles above the dataframes
+    # Add titles above the dat  aframes
     with col1:
         st.markdown("<h3 style='text-align: left;'>Starting Pitching</h3>", unsafe_allow_html=True)
         st.dataframe(sp_df[['Team', 'ERA', 'WHIP', 'IP']], width=400, hide_index=True)
@@ -464,8 +464,8 @@ elif view_selection == "Teams":
 
     st.subheader("League Averages", divider='gray')
 
-    league_avg_df.insert(2, 'FIP', 3.54)
-    league_avg_df.insert(3, 'xFIP', 3.83)
+    league_avg_df.insert(2, 'FIP', 3.51)
+    league_avg_df.insert(3, 'xFIP', 3.78)
     league_columns = ['ERA', 'WHIP', 'FIP', 'xFIP','K%', 'BB%', 'K-BB%', 'SwStr%', 'Whiff%', 'Str%', 'CSW%', 'CStr%', 'F-Strike%', 'LD%', 'GB%', 'FB%', 'PopUp%', 'HR/FB%', 'BABIP', 'AVG', 'OBP', 'SLG', 'OPS',
                       'K/9', 'BB/9', 'H/9', 'R/9', 'HR/9', 'K/BB']
     league_avg_formatted = league_avg_df[league_columns].style.format({
